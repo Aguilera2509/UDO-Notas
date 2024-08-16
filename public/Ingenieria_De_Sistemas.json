@@ -1,0 +1,262 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 212,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 1
+            },
+            {
+                "id": 213,
+                "name": "COMPRENSION Y EXPRESION LINGUISTICA",
+                "id_semester": 1
+            },
+            {
+                "id": 214,
+                "name": "INGLES INSTRUMENTAL",
+                "id_semester": 1
+            },
+            {
+                "id": 215,
+                "name": "MATEMATICAS I",
+                "id_semester": 1
+            },
+            {
+                "id": 216,
+                "name": "DES. DEST. PARA EL APRENDIZAJE",
+                "id_semester": 1
+            },
+            {
+                "id": 217,
+                "name": "QUIMICA GENERAL",
+                "id_semester": 1
+            },
+            {
+                "id": 218,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 219,
+                "name": "FISICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 220,
+                "name": "COMPRENSION Y EXPRESION LINGUISTICA II",
+                "id_semester": 2
+            },
+            {
+                "id": 221,
+                "name": "INGLES TECNICO I",
+                "id_semester": 2
+            },
+            {
+                "id": 222,
+                "name": "MATEMATICAS II",
+                "id_semester": 2
+            },
+            {
+                "id": 223,
+                "name": "INT A LA LOGICA FORMAL Y ALGORITMOS",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 224,
+                "name": "LABORATORIO DE FISICA I",
+                "id_semester": 3
+            },
+            {
+                "id": 225,
+                "name": "FISICA II",
+                "id_semester": 3
+            },
+            {
+                "id": 226,
+                "name": "MATEMATICAS III",
+                "id_semester": 3
+            },
+            {
+                "id": 227,
+                "name": "INTRODUCCION A LA ING. DE SISTEMAS",
+                "id_semester": 3
+            },
+            {
+                "id": 228,
+                "name": "PROGRAMACION ORIENTADA A OBJETOS",
+                "id_semester": 3
+            },
+            {
+                "id": 229,
+                "name": "TALLER DE PROGRAMACION ORIENTADA A OBJETO",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 230,
+                "name": "MATEMATICAS IV",
+                "id_semester": 4
+            },
+            {
+                "id": 231,
+                "name": "ESTADISTICA I",
+                "id_semester": 4
+            },
+            {
+                "id": 232,
+                "name": "INTRODUCCION A LA ECONOMIA",
+                "id_semester": 4
+            },
+            {
+                "id": 233,
+                "name": "OBJETOS Y ABSTRACCION DE DATOS",
+                "id_semester": 4
+            },
+            {
+                "id": 234,
+                "name": "TALLER DE OBJETOS Y ABSTRACCION DE DATOS",
+                "id_semester": 4
+            }
+        ],
+        "semestre 5": [
+            {
+                "id": 235,
+                "name": "ESTADISTICA II",
+                "id_semester": 5
+            },
+            {
+                "id": 236,
+                "name": "INFERENCIA Y DISEÑO DE EXPERIMENTOS",
+                "id_semester": 5
+            },
+            {
+                "id": 237,
+                "name": "SISTEMAS DE COSTOS INDUSTRIALES",
+                "id_semester": 5
+            },
+            {
+                "id": 238,
+                "name": "CIRCUITOS Y SISTEMAS",
+                "id_semester": 5
+            },
+            {
+                "id": 239,
+                "name": "TEORIA DE SISTEMAS",
+                "id_semester": 5
+            },
+            {
+                "id": 240,
+                "name": "SISTEMAS DE OPERACION",
+                "id_semester": 5
+            },
+            {
+                "id": 241,
+                "name": "METODOS NUMERICOS",
+                "id_semester": 5
+            }
+        ],
+        "semestre 6": [
+            {
+                "id": 242,
+                "name": "ECONOMIA DE EMPRESAS",
+                "id_semester": 6
+            },
+            {
+                "id": 243,
+                "name": "ADMINISTRACION DE SIST. DE BASES DE DATOS",
+                "id_semester": 6
+            },
+            {
+                "id": 244,
+                "name": "ENFOQUE SISTEMICO",
+                "id_semester": 6
+            },
+            {
+                "id": 245,
+                "name": "ANALISIS DE DECISIONES",
+                "id_semester": 6
+            },
+            {
+                "id": 246,
+                "name": "OPTIMIZACION DE OPERACIONES",
+                "id_semester": 6
+            },
+            {
+                "id": 247,
+                "name": "ELECTRONICA",
+                "id_semester": 6
+            }
+        ],
+        "semestre 7": [
+            {
+                "id": 248,
+                "name": "PREP, EVALUACION Y CONTROL DE PROYECTOS",
+                "id_semester": 7
+            },
+            {
+                "id": 249,
+                "name": "ANALISIS Y DISEÑO DE SIST DE INFORMACION",
+                "id_semester": 7
+            },
+            {
+                "id": 250,
+                "name": "MODELOS DE OPERACIONES I",
+                "id_semester": 7
+            },
+            {
+                "id": 251,
+                "name": "SISTEMAS DINAMICOS",
+                "id_semester": 7
+            },
+            {
+                "id": 252,
+                "name": "LABORATORIO DE CIRCUITOS Y ELECTRONICA",
+                "id_semester": 7
+            }
+        ],
+        "semestre 8": [
+            {
+                "id": 253,
+                "name": "ADMINISTRACION FINANCIERA",
+                "id_semester": 8
+            },
+            {
+                "id": 254,
+                "name": "GESTION EMPRESARIAL I",
+                "id_semester": 8
+            },
+            {
+                "id": 255,
+                "name": "MODELOS DEOPERACIONES II",
+                "id_semester": 8
+            },
+            {
+                "id": 256,
+                "name": "APLI Y AUDITORIA DE SIST. DE INFORMACION",
+                "id_semester": 8
+            },
+            {
+                "id": 257,
+                "name": "SISTEMAS DE COMUNICACION INDUSTRIAL",
+                "id_semester": 8
+            }
+        ],
+        "semestre 9": [
+            {
+                "id": 258,
+                "name": "LEYES Y DEONTOLOGIA",
+                "id_semester": 9
+            },
+            {
+                "id": 259,
+                "name": "PLANIFICACION ESTRATEGICA",
+                "id_semester": 9
+            }
+        ]
+    }
+}

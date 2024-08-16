@@ -1,0 +1,269 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 607,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 1
+            },
+            {
+                "id": 608,
+                "name": "EXPRESION ORAL Y ESCRITA",
+                "id_semester": 1
+            },
+            {
+                "id": 609,
+                "name": "INGLES INSTRUMENTAL",
+                "id_semester": 1
+            },
+            {
+                "id": 610,
+                "name": "MATEMATICAS I",
+                "id_semester": 1
+            },
+            {
+                "id": 611,
+                "name": "QUIMICA I",
+                "id_semester": 1
+            },
+            {
+                "id": 612,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 613,
+                "name": "FISICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 614,
+                "name": "INGLES TECNICO I",
+                "id_semester": 2
+            },
+            {
+                "id": 615,
+                "name": "MATEMATICAS II",
+                "id_semester": 2
+            },
+            {
+                "id": 616,
+                "name": "QUIMICA ORGANICA",
+                "id_semester": 2
+            },
+            {
+                "id": 617,
+                "name": "QUIMICA ANALITICA",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 618,
+                "name": "LABORATORIO DE FISICA I",
+                "id_semester": 3
+            },
+            {
+                "id": 619,
+                "name": "FISICA II",
+                "id_semester": 3
+            },
+            {
+                "id": 620,
+                "name": "MATEMATICAS III",
+                "id_semester": 3
+            },
+            {
+                "id": 621,
+                "name": "LAB. QUIMICA ANALITICA",
+                "id_semester": 3
+            },
+            {
+                "id": 622,
+                "name": "LAB. QUIMICA ORGANICA",
+                "id_semester": 3
+            },
+            {
+                "id": 623,
+                "name": "ANALISIS INSTRUMENTAL",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 624,
+                "name": "MATEMATICAS IV",
+                "id_semester": 4
+            },
+            {
+                "id": 625,
+                "name": "INTRODUCCION A LA PROGRAMACION",
+                "id_semester": 4
+            },
+            {
+                "id": 626,
+                "name": "ESTADISTICA Y DISENO DE EXP.",
+                "id_semester": 4
+            },
+            {
+                "id": 627,
+                "name": "FISICOQUIMICA",
+                "id_semester": 4
+            }
+        ],
+        "semestre 5": [
+            {
+                "id": 628,
+                "name": "METODOS NUMERICOS PARA ING.",
+                "id_semester": 5
+            },
+            {
+                "id": 629,
+                "name": "LAB. DE FISICOQUIMICA",
+                "id_semester": 5
+            },
+            {
+                "id": 630,
+                "name": "FENOMENOS DE TRANSPORTE  I",
+                "id_semester": 5
+            },
+            {
+                "id": 631,
+                "name": "PRINCIPIOS DE INGENIERIA QUIMICA",
+                "id_semester": 5
+            },
+            {
+                "id": 632,
+                "name": "TERMODINAMICA  I",
+                "id_semester": 5
+            }
+        ],
+        "semestre 6": [
+            {
+                "id": 633,
+                "name": "MATERIALES DE INGENIERIA",
+                "id_semester": 6
+            },
+            {
+                "id": 634,
+                "name": "FENOMENOS DE TRANSPORTE II",
+                "id_semester": 6
+            },
+            {
+                "id": 635,
+                "name": "REACTORES  I",
+                "id_semester": 6
+            },
+            {
+                "id": 636,
+                "name": "ELECTROTECNIA",
+                "id_semester": 6
+            },
+            {
+                "id": 637,
+                "name": "TERMODINAMICA  II",
+                "id_semester": 6
+            }
+        ],
+        "semestre 7": [
+            {
+                "id": 638,
+                "name": "LAB DE FENOMENOS DE TRANSPORTE",
+                "id_semester": 7
+            },
+            {
+                "id": 639,
+                "name": "OPERACIONES UNITARIAS  I",
+                "id_semester": 7
+            },
+            {
+                "id": 640,
+                "name": "REACTORES II",
+                "id_semester": 7
+            },
+            {
+                "id": 641,
+                "name": "OPERACIONES UNITARIAS  II",
+                "id_semester": 7
+            },
+            {
+                "id": 642,
+                "name": "INGENIERIA AMBIENTAL",
+                "id_semester": 7
+            }
+        ],
+        "semestre 8": [
+            {
+                "id": 643,
+                "name": "OPERACIONES UNITARIAS  III",
+                "id_semester": 8
+            },
+            {
+                "id": 644,
+                "name": "LAB. DE REACTORES",
+                "id_semester": 8
+            },
+            {
+                "id": 645,
+                "name": "TRATAMIENTO DE GAS",
+                "id_semester": 8
+            },
+            {
+                "id": 646,
+                "name": "DINAMICA DE PROCESOS E INST.",
+                "id_semester": 8
+            },
+            {
+                "id": 647,
+                "name": "QUIMICA INDUSTRIAL",
+                "id_semester": 8
+            }
+        ],
+        "semestre 9": [
+            {
+                "id": 648,
+                "name": "FORMULACION Y EVALUACION DE PROYECTOS",
+                "id_semester": 9
+            },
+            {
+                "id": 649,
+                "name": "LAB. DE OPERACIONES UNITARIAS",
+                "id_semester": 9
+            },
+            {
+                "id": 650,
+                "name": "FUND. DE SEGURIDAD EN ING. QUIMICA.",
+                "id_semester": 9
+            },
+            {
+                "id": 651,
+                "name": "LAB. DINAMICA DE PROCESOS",
+                "id_semester": 9
+            },
+            {
+                "id": 652,
+                "name": "GERENCIA INDUSTRIAL",
+                "id_semester": 9
+            },
+            {
+                "id": 653,
+                "name": "DISEÑO DE PLANTAS QUIMICAS",
+                "id_semester": 9
+            }
+        ],
+        "semestre 10": [
+            {
+                "id": 654,
+                "name": "LEYES Y DEONTOLOGIA",
+                "id_semester": 10
+            },
+            {
+                "id": 655,
+                "name": "SEMINARIO",
+                "id_semester": 10
+            }
+        ]
+    }
+}

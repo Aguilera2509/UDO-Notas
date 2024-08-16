@@ -1,0 +1,232 @@
+{
+    "courses": {
+      "semestre 1": [
+        {
+          "id": 170,
+          "name": "COMPRENSION Y EXPRESION LINGUISTICA",
+          "id_semester": 1
+        },
+        {
+          "id": 171,
+          "name": "MATEMATICAS I",
+          "id_semester": 1
+        },
+        {
+          "id": 172,
+          "name": "DES. DEST. PARA EL APRENDIZAJE",
+          "id_semester": 1
+        },
+        {
+          "id": 173,
+          "name": "EXTRA ACADEMICA DEPORTIVA",
+          "id_semester": 1
+        },
+        {
+          "id": 174,
+          "name": "EXPRESION I",
+          "id_semester": 1
+        },
+        {
+          "id": 175,
+          "name": "COMPOSICION I",
+          "id_semester": 1
+        }
+      ],
+      "semestre 2": [
+        {
+          "id": 176,
+          "name": "FISICA",
+          "id_semester": 2
+        },
+        {
+          "id": 177,
+          "name": "INGLES INSTRUMENTAL",
+          "id_semester": 2
+        },
+        {
+          "id": 178,
+          "name": "MATEMATICAS II",
+          "id_semester": 2
+        },
+        {
+          "id": 179,
+          "name": "COMPUTACION BASICA",
+          "id_semester": 2
+        },
+        {
+          "id": 180,
+          "name": "EXPRESION II",
+          "id_semester": 2
+        },
+        {
+          "id": 181,
+          "name": "COMPOSICION II",
+          "id_semester": 2
+        }
+      ],
+      "semestre 3": [
+        {
+          "id": 182,
+          "name": "INGLES TECNICO",
+          "id_semester": 3
+        },
+        {
+          "id": 183,
+          "name": "TALLER DE COMP. ARQUITEC. I",
+          "id_semester": 3
+        },
+        {
+          "id": 184,
+          "name": "TECNOLOGIA I",
+          "id_semester": 3
+        },
+        {
+          "id": 185,
+          "name": " REPRESENT. GRAFICA DE PROYEC.",
+          "id_semester": 3
+        },
+        {
+          "id": 186,
+          "name": "CREATIVIDAD",
+          "id_semester": 3
+        },
+        {
+          "id": 187,
+          "name": "SISTEMAS GEOM. DE REPRESENT.",
+          "id_semester": 3
+        }
+      ],
+      "semestre 4": [
+        {
+          "id": 188,
+          "name": "VALORACION AMBIENTAL",
+          "id_semester": 4
+        },
+        {
+          "id": 189,
+          "name": "METODOS ENFOQUES Y SISTEMAS",
+          "id_semester": 4
+        },
+        {
+          "id": 190,
+          "name": "TALLER DE COMP. ARQUITEC. II",
+          "id_semester": 4
+        },
+        {
+          "id": 191,
+          "name": "TECNOLOGIA II",
+          "id_semester": 4
+        },
+        {
+          "id": 192,
+          "name": "HISTORIA Y CRITICA DE ARQUITECTURA I",
+          "id_semester": 4
+        }
+      ],
+      "semestre 5": [
+        {
+          "id": 193,
+          "name": "TALLER DE COMP. ARQUITEC. III",
+          "id_semester": 5
+        },
+        {
+          "id": 194,
+          "name": "CONCEPCION URBANO AMBIENTAL",
+          "id_semester": 5
+        },
+        {
+          "id": 195,
+          "name": "TECNOLOGIA III",
+          "id_semester": 5
+        },
+        {
+          "id": 196,
+          "name": "HISTORIA Y CRITICA DE ARQUITECTURA II",
+          "id_semester": 5
+        }
+      ],
+      "semestre 6": [
+        {
+          "id": 197,
+          "name": "TALLER DE COMP. ARQUITEC. IV",
+          "id_semester": 6
+        },
+        {
+          "id": 198,
+          "name": "TECNOLOGIA IV",
+          "id_semester": 6
+        },
+        {
+          "id": 199,
+          "name": "ECOLOGIA URBANA",
+          "id_semester": 6
+        },
+        {
+          "id": 200,
+          "name": "URBANISMO",
+          "id_semester": 6
+        },
+        {
+          "id": 201,
+          "name": "HISTORIA Y CRITICA DE ARQUITECTURA III",
+          "id_semester": 6
+        }
+      ],
+      "semestre 7": [
+        {
+          "id": 202,
+          "name": "GERENCIA DE OBRAS",
+          "id_semester": 7
+        },
+        {
+          "id": 203,
+          "name": "TALLER DE COMP. ARQUITEC. V",
+          "id_semester": 7
+        },
+        {
+          "id": 204,
+          "name": "ESTRUCTURA URBANA",
+          "id_semester": 7
+        },
+        {
+          "id": 205,
+          "name": "HISTORIA Y CRITICA DE ARQUITECTURA IV",
+          "id_semester": 7
+        }
+      ],
+      "semestre 8": [
+        {
+          "id": 206,
+          "name": "METODOLG. Y PROCESO DE LA INVESTIGACION",
+          "id_semester": 8
+        },
+        {
+          "id": 207,
+          "name": "VALORACION DEL PATRIMONIO",
+          "id_semester": 8
+        },
+        {
+          "id": 208,
+          "name": "TALLER DE COMP. ARQUITEC. VI",
+          "id_semester": 8
+        },
+        {
+          "id": 209,
+          "name": "PASANTIAS",
+          "id_semester": 8
+        }
+      ],
+      "semestre 9": [
+        {
+          "id": 210,
+          "name": "ETICA Y DEONTOLOGIA",
+          "id_semester": 9
+        },
+        {
+          "id": 211,
+          "name": "DISEÑO DEL PROYECTO DE INVESTIGACION",
+          "id_semester": 9
+        }
+      ]
+    }
+}

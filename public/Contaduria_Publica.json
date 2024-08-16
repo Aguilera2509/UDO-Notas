@@ -1,0 +1,284 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 341,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 1
+            },
+            {
+                "id": 342,
+                "name": "EXPRESION ORAL Y ESCRITA",
+                "id_semester": 1
+            },
+            {
+                "id": 343,
+                "name": "INGLES I PCS. ADMNISTRATIVAS",
+                "id_semester": 1
+            },
+            {
+                "id": 344,
+                "name": "MATEMATICA I",
+                "id_semester": 1
+            },
+            {
+                "id": 345,
+                "name": "DES. DEST. PARA EL APRENDIZAJE",
+                "id_semester": 1
+            },
+            {
+                "id": 346,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 1
+            },
+            {
+                "id": 347,
+                "name": "INTR. A LA ADMIN. Y CONTAD.",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 348,
+                "name": "INGLES II PCS. ADMNISTRATIVAS",
+                "id_semester": 2
+            },
+            {
+                "id": 349,
+                "name": "MATEMATICA II",
+                "id_semester": 2
+            },
+            {
+                "id": 350,
+                "name": "PROBLEMATICA PEL DES. SOCIOEC",
+                "id_semester": 2
+            },
+            {
+                "id": 351,
+                "name": "CONTABILIDAD BASICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 352,
+                "name": "INFORMATICA I",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 353,
+                "name": "CONTABILIDAD BASICA II",
+                "id_semester": 3
+            },
+            {
+                "id": 354,
+                "name": "INFORMATICA II",
+                "id_semester": 3
+            },
+            {
+                "id": 355,
+                "name": "MATEMATICAS FINANCIERAS I",
+                "id_semester": 3
+            },
+            {
+                "id": 356,
+                "name": "ADM. DE EMPRESAS I",
+                "id_semester": 3
+            },
+            {
+                "id": 357,
+                "name": "FUNDAMENTOS DEL DERECHO",
+                "id_semester": 3
+            },
+            {
+                "id": 358,
+                "name": "ECONOMIA I",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 359,
+                "name": "CONTAB. AVANZADA I",
+                "id_semester": 4
+            },
+            {
+                "id": 360,
+                "name": "MATEMATICAS FINANCIERAS II",
+                "id_semester": 4
+            },
+            {
+                "id": 361,
+                "name": "ADM. DE EMPRESAS II",
+                "id_semester": 4
+            },
+            {
+                "id": 362,
+                "name": "DERECHO MERCANTIL",
+                "id_semester": 4
+            },
+            {
+                "id": 363,
+                "name": "ECONOMIA II",
+                "id_semester": 4
+            }
+        ],
+        "semestre 5": [
+            {
+                "id": 364,
+                "name": "CONTAB. AVANZADA II",
+                "id_semester": 5
+            },
+            {
+                "id": 365,
+                "name": "ESTADISTICA I",
+                "id_semester": 5
+            },
+            {
+                "id": 366,
+                "name": "ADM. DE RECURSOS HUMANOS",
+                "id_semester": 5
+            },
+            {
+                "id": 367,
+                "name": "DERECHO LABORAL",
+                "id_semester": 5
+            },
+            {
+                "id": 368,
+                "name": "MONEDA, BCA. Y CREDITO",
+                "id_semester": 5
+            }
+        ],
+        "semestre 6": [
+            {
+                "id": 369,
+                "name": "AJUSTE POR INFLACION",
+                "id_semester": 6
+            },
+            {
+                "id": 370,
+                "name": "CONTABILIDAD AVANZADA III",
+                "id_semester": 6
+            },
+            {
+                "id": 371,
+                "name": "CONTAB. DE COSTOS I",
+                "id_semester": 6
+            },
+            {
+                "id": 372,
+                "name": "ESTADISTICA II",
+                "id_semester": 6
+            },
+            {
+                "id": 373,
+                "name": "METODOLOGIA DE LA INVESTIG.",
+                "id_semester": 6
+            },
+            {
+                "id": 374,
+                "name": "FINANZAS PUBLICAS",
+                "id_semester": 6
+            }
+        ],
+        "semestre 7": [
+            {
+                "id": 375,
+                "name": "TRIBUTOS I",
+                "id_semester": 7
+            },
+            {
+                "id": 376,
+                "name": "AUDITORIA I",
+                "id_semester": 7
+            },
+            {
+                "id": 377,
+                "name": "CONTABILIDAD DE COSTOS II",
+                "id_semester": 7
+            },
+            {
+                "id": 378,
+                "name": "ANALISIS DE LOS EDOS. FINANC.",
+                "id_semester": 7
+            },
+            {
+                "id": 379,
+                "name": "PRESUPUESTO PUBLICO",
+                "id_semester": 7
+            }
+        ],
+        "semestre 8": [
+            {
+                "id": 380,
+                "name": "CONTABILIDAD GUBERNAMENTAL",
+                "id_semester": 8
+            },
+            {
+                "id": 381,
+                "name": "TRIBUTOS II",
+                "id_semester": 8
+            },
+            {
+                "id": 382,
+                "name": "AUDITORIA II",
+                "id_semester": 8
+            },
+            {
+                "id": 383,
+                "name": "CONTABILIDAD DE COSTOS III",
+                "id_semester": 8
+            },
+            {
+                "id": 384,
+                "name": "CONTABILIDADES ESPECIALES I",
+                "id_semester": 8
+            },
+            {
+                "id": 385,
+                "name": "SISTEMAS Y PROC. ADM Y CONT.",
+                "id_semester": 8
+            }
+        ],
+        "semestre 9": [
+            {
+                "id": 386,
+                "name": "CONTABILIDAD COMPUTARIZADA",
+                "id_semester": 9
+            },
+            {
+                "id": 387,
+                "name": "TRIBUTOS III",
+                "id_semester": 9
+            },
+            {
+                "id": 388,
+                "name": "AUDITORIA III",
+                "id_semester": 9
+            },
+            {
+                "id": 389,
+                "name": "CONTABILIDADES ESPECIALES II",
+                "id_semester": 9
+            },
+            {
+                "id": 390,
+                "name": "PRESUPUESTO DE LAS EMPRESAS",
+                "id_semester": 9
+            },
+            {
+                "id": 391,
+                "name": "FINANZAS CORPORATIVAS",
+                "id_semester": 9
+            }
+        ],
+        "semestre 10": [
+            {
+                "id": 392,
+                "name": "ETICA PROFESIONAL",
+                "id_semester": 10
+            }
+        ]
+    }
+}

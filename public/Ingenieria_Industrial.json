@@ -1,0 +1,294 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 553,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 1
+            },
+            {
+                "id": 554,
+                "name": "FISICA I",
+                "id_semester": 1
+            },
+            {
+                "id": 555,
+                "name": "COMPRENSION Y EXPRESION LINGUISTICA",
+                "id_semester": 1
+            },
+            {
+                "id": 556,
+                "name": "MATEMATICAS I",
+                "id_semester": 1
+            },
+            {
+                "id": 557,
+                "name": "DES. DEST. PARA EL APRENDIZAJE",
+                "id_semester": 1
+            },
+            {
+                "id": 558,
+                "name": "QUIMICA I",
+                "id_semester": 1
+            },
+            {
+                "id": 559,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 560,
+                "name": "LAB. DE FISICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 561,
+                "name": "FISICA II",
+                "id_semester": 2
+            },
+            {
+                "id": 562,
+                "name": "INGLES INSTRUMENTAL",
+                "id_semester": 2
+            },
+            {
+                "id": 563,
+                "name": "MATEMATICAS II",
+                "id_semester": 2
+            },
+            {
+                "id": 564,
+                "name": "LAB. DE QUIMICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 565,
+                "name": "QUIMICA II",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 566,
+                "name": "LAB. DE FISICA II",
+                "id_semester": 3
+            },
+            {
+                "id": 567,
+                "name": "FISICA  III",
+                "id_semester": 3
+            },
+            {
+                "id": 568,
+                "name": "INGLES TECNICO I (ING.)",
+                "id_semester": 3
+            },
+            {
+                "id": 569,
+                "name": "MATEMATICAS III",
+                "id_semester": 3
+            },
+            {
+                "id": 570,
+                "name": "INTRODUCCION A LA PROGRAMACION",
+                "id_semester": 3
+            },
+            {
+                "id": 571,
+                "name": "MECANICA RACIONAL I",
+                "id_semester": 3
+            },
+            {
+                "id": 572,
+                "name": "DIBUJO TECNICO",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 573,
+                "name": "GEOMETRIA DESCRIPTIVA",
+                "id_semester": 4
+            },
+            {
+                "id": 574,
+                "name": "MATEMATICAS IV",
+                "id_semester": 4
+            },
+            {
+                "id": 575,
+                "name": "ELECTROTECNIA",
+                "id_semester": 4
+            },
+            {
+                "id": 576,
+                "name": "MECANICA RACIONAL II",
+                "id_semester": 4
+            },
+            {
+                "id": 577,
+                "name": "PROCESAMIENTO DE DATOS",
+                "id_semester": 4
+            }
+        ],
+        "semestre 5": [
+            {
+                "id": 578,
+                "name": "METODOS NUMERICOS PARA ING.",
+                "id_semester": 5
+            },
+            {
+                "id": 579,
+                "name": "LAB. DE ELECTROTECNIA",
+                "id_semester": 5
+            },
+            {
+                "id": 580,
+                "name": "DIBUJO MECANICO",
+                "id_semester": 5
+            },
+            {
+                "id": 581,
+                "name": "MECANICA DE LOS MATERIALES",
+                "id_semester": 5
+            },
+            {
+                "id": 582,
+                "name": "TERMODINAMICA",
+                "id_semester": 5
+            },
+            {
+                "id": 583,
+                "name": "ESTADISTICA I",
+                "id_semester": 5
+            }
+        ],
+        "semestre 6": [
+            {
+                "id": 584,
+                "name": "MECANICA DE LOS FLUIDOS",
+                "id_semester": 6
+            },
+            {
+                "id": 585,
+                "name": "FUNDAMENTO DE DISENO MECANICO",
+                "id_semester": 6
+            },
+            {
+                "id": 586,
+                "name": "PROGRAMACION LINEAL",
+                "id_semester": 6
+            },
+            {
+                "id": 587,
+                "name": "PROCESOS INDUSTRIALES",
+                "id_semester": 6
+            },
+            {
+                "id": 588,
+                "name": "ESTADISTICA II",
+                "id_semester": 6
+            }
+        ],
+        "semestre 7": [
+            {
+                "id": 589,
+                "name": "INVESTIGACION OPERATIVA I",
+                "id_semester": 7
+            },
+            {
+                "id": 590,
+                "name": "INGENIERIA DE METODOS",
+                "id_semester": 7
+            },
+            {
+                "id": 591,
+                "name": "TEORIA ECONOMICA",
+                "id_semester": 7
+            },
+            {
+                "id": 592,
+                "name": "SISTEMA DE COSTOS INDUSTRIALE",
+                "id_semester": 7
+            }
+        ],
+        "semestre 8": [
+            {
+                "id": 593,
+                "name": "CONTROL DE CALIDAD",
+                "id_semester": 8
+            },
+            {
+                "id": 594,
+                "name": "INGENIERIA ECONOMICA",
+                "id_semester": 8
+            },
+            {
+                "id": 595,
+                "name": "DISENO DE PLANTAS",
+                "id_semester": 8
+            },
+            {
+                "id": 596,
+                "name": "CONTROL DE PRODUCCION I",
+                "id_semester": 8
+            }
+        ],
+        "semestre 9": [
+            {
+                "id": 597,
+                "name": "CONTROL DE PRODUCCION II",
+                "id_semester": 9
+            },
+            {
+                "id": 598,
+                "name": "DIRECCION INDUSTRIAL",
+                "id_semester": 9
+            },
+            {
+                "id": 599,
+                "name": "ADMINISTRACION FINANCIERA",
+                "id_semester": 9
+            },
+            {
+                "id": 600,
+                "name": "LAB. DE DISENO DE PLANTAS",
+                "id_semester": 9
+            },
+            {
+                "id": 601,
+                "name": "MANTENIMIENTO",
+                "id_semester": 9
+            }
+        ],
+        "semestre 10": [
+            {
+                "id": 602,
+                "name": "MERCADOTECNIA",
+                "id_semester": 10
+            },
+            {
+                "id": 603,
+                "name": "GERENCIA DE PERSONAL",
+                "id_semester": 10
+            },
+            {
+                "id": 604,
+                "name": "HIGIENE Y SEGURIDAD INDUSTRIA",
+                "id_semester": 10
+            },
+            {
+                "id": 605,
+                "name": "MANEJO DE MATERIALES",
+                "id_semester": 10
+            },
+            {
+                "id": 606,
+                "name": "LEYES Y DEONTOLOGIA",
+                "id_semester": 10
+            }
+        ]
+    }
+}

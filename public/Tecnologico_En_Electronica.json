@@ -1,0 +1,231 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 298,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 1
+            },
+            {
+                "id": 299,
+                "name": "FISICA I",
+                "id_semester": 1
+            },
+            {
+                "id": 300,
+                "name": "COMPRENSION Y EXPRESION LINGUISTICA",
+                "id_semester": 1
+            },
+            {
+                "id": 301,
+                "name": "MATEMATICAS I",
+                "id_semester": 1
+            },
+            {
+                "id": 302,
+                "name": "DES. DEST. PARA EL APRENDIZAJE",
+                "id_semester": 1
+            },
+            {
+                "id": 303,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 1
+            },
+            {
+                "id": 304,
+                "name": "DIBUJO I",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 305,
+                "name": "FISICA II",
+                "id_semester": 2
+            },
+            {
+                "id": 306,
+                "name": "MATEMATICAS II",
+                "id_semester": 2
+            },
+            {
+                "id": 307,
+                "name": "DIBUJO II",
+                "id_semester": 2
+            },
+            {
+                "id": 308,
+                "name": "CIRCUITOS ELECTRICOS I",
+                "id_semester": 2
+            },
+            {
+                "id": 309,
+                "name": "TECNOLOGIA I",
+                "id_semester": 2
+            },
+            {
+                "id": 310,
+                "name": "TALLER I",
+                "id_semester": 2
+            },
+            {
+                "id": 311,
+                "name": "INGLES TECNICO I (TEC. ELECT.)",
+                "id_semester": 2
+            },
+            {
+                "id": 312,
+                "name": "LAB. DE CIRCUITOS ELEC. I",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 313,
+                "name": "ELECTRONICA I",
+                "id_semester": 3
+            },
+            {
+                "id": 314,
+                "name": "TECNOLOGIA II",
+                "id_semester": 3
+            },
+            {
+                "id": 315,
+                "name": "TALLER II",
+                "id_semester": 3
+            },
+            {
+                "id": 316,
+                "name": "CIRCUITOS ELECTRICOS II",
+                "id_semester": 3
+            },
+            {
+                "id": 317,
+                "name": "MATEMATICAS III",
+                "id_semester": 3
+            },
+            {
+                "id": 318,
+                "name": "INGLES TECNICO II (TEC. ELEC.)",
+                "id_semester": 3
+            },
+            {
+                "id": 319,
+                "name": "LAB. DE ELECTRONICA I",
+                "id_semester": 3
+            },
+            {
+                "id": 320,
+                "name": "LAB. DE CIRCUITOS ELEC. II",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 321,
+                "name": "ELECTRONICA II",
+                "id_semester": 4
+            },
+            {
+                "id": 322,
+                "name": "CIRCUITOS LOGICOS",
+                "id_semester": 4
+            },
+            {
+                "id": 323,
+                "name": "TECNOLOGIA III",
+                "id_semester": 4
+            },
+            {
+                "id": 324,
+                "name": "TALLER III",
+                "id_semester": 4
+            },
+            {
+                "id": 325,
+                "name": "MAQUINAS ELECTRICAS",
+                "id_semester": 4
+            },
+            {
+                "id": 326,
+                "name": "LAB. DE MAQUINAS ELECTRICAS",
+                "id_semester": 4
+            },
+            {
+                "id": 327,
+                "name": "LAB. II DE ELECTRONICA",
+                "id_semester": 4
+            },
+            {
+                "id": 328,
+                "name": "INT. A LA PROGRAMACION",
+                "id_semester": 4
+            }
+        ],
+        "semestre 5": [
+            {
+                "id": 329,
+                "name": "HIGIENE Y SEGURIDAD INDUSTRIA",
+                "id_semester": 5
+            },
+            {
+                "id": 330,
+                "name": "ELECTRONICA III",
+                "id_semester": 5
+            },
+            {
+                "id": 331,
+                "name": "INSTRUMENTACION ELECTRONICA",
+                "id_semester": 5
+            },
+            {
+                "id": 332,
+                "name": "TECNOLOGIA IV",
+                "id_semester": 5
+            },
+            {
+                "id": 333,
+                "name": "TALLER IV",
+                "id_semester": 5
+            },
+            {
+                "id": 334,
+                "name": "COMUNICACIONES I",
+                "id_semester": 5
+            },
+            {
+                "id": 335,
+                "name": "LAB. III DE ELECTRONICA",
+                "id_semester": 5
+            },
+            {
+                "id": 336,
+                "name": "LAB. DE CIRCUITOS LOG. E INST",
+                "id_semester": 5
+            },
+            {
+                "id": 337,
+                "name": "LAB. DE COMUNICACIONES I",
+                "id_semester": 5
+            }
+        ],
+        "semestre 6": [
+            {
+                "id": 338,
+                "name": "ORGANIZACION Y ECO. DE PRODC.",
+                "id_semester": 6
+            },
+            {
+                "id": 339,
+                "name": "ELECTRONICA INDUSTRIAL",
+                "id_semester": 6
+            },
+            {
+                "id": 340,
+                "name": "LAB. DE ELECTRONICA INDUSTRIA",
+                "id_semester": 6
+            }
+        ]
+    }
+}

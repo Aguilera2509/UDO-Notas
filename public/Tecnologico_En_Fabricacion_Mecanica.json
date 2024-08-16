@@ -1,0 +1,206 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 260,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 1
+            },
+            {
+                "id": 261,
+                "name": "EXPRESION ORAL Y ESCRITA",
+                "id_semester": 1
+            },
+            {
+                "id": 262,
+                "name": "INGLES INSTRUMENTAL",
+                "id_semester": 1
+            },
+            {
+                "id": 263,
+                "name": "MATEMATICAS I",
+                "id_semester": 1
+            },
+            {
+                "id": 264,
+                "name": "DES. DEST. PARA EL APRENDIZAJE",
+                "id_semester": 1
+            },
+            {
+                "id": 265,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 1
+            },
+            {
+                "id": 266,
+                "name": "COMPUTACION BASICA",
+                "id_semester": 1
+            },
+            {
+                "id": 267,
+                "name": "DIBUJO INDUSTRIAL",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 268,
+                "name": "FISICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 269,
+                "name": "MATEMATICAS II",
+                "id_semester": 2
+            },
+            {
+                "id": 270,
+                "name": "INGLES TECNICO MECANICO",
+                "id_semester": 2
+            },
+            {
+                "id": 271,
+                "name": "METALURGIA I",
+                "id_semester": 2
+            },
+            {
+                "id": 272,
+                "name": "TECNOLOGIA MECANICA Y METROTECNIA",
+                "id_semester": 2
+            },
+            {
+                "id": 273,
+                "name": "DIBUJO MECANICO COMPUTARIZADO I",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 274,
+                "name": "METALURGIA II",
+                "id_semester": 3
+            },
+            {
+                "id": 275,
+                "name": "TALLER DE MAQUINAS HERRAMIENTAS I",
+                "id_semester": 3
+            },
+            {
+                "id": 276,
+                "name": "DIBUJO MECANICO COMPUTARIZADO II",
+                "id_semester": 3
+            },
+            {
+                "id": 277,
+                "name": "MECANICA VECTORIAL",
+                "id_semester": 3
+            },
+            {
+                "id": 278,
+                "name": "MATEMATICA III",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 279,
+                "name": "HIGIENE Y SEGURIDAD",
+                "id_semester": 4
+            },
+            {
+                "id": 280,
+                "name": "TALLER DE MAQUINAS HERRAMIENTAS II",
+                "id_semester": 4
+            },
+            {
+                "id": 281,
+                "name": "PROCESOS DE MANUFACTURAS",
+                "id_semester": 4
+            },
+            {
+                "id": 282,
+                "name": "FUNDAMENTOS DE MECANICA DE LOS FLUIDOS",
+                "id_semester": 4
+            },
+            {
+                "id": 283,
+                "name": "ELECTRICIDAD INDUSTRIAL",
+                "id_semester": 4
+            },
+            {
+                "id": 284,
+                "name": "MECANISMOS",
+                "id_semester": 4
+            },
+            {
+                "id": 285,
+                "name": "MECANICA DE MATERIALES",
+                "id_semester": 4
+            }
+        ],
+        "semestre 5": [
+            {
+                "id": 286,
+                "name": "ADMINISTRACION DE LA PRODUCCION",
+                "id_semester": 5
+            },
+            {
+                "id": 287,
+                "name": "MATRICERIA",
+                "id_semester": 5
+            },
+            {
+                "id": 288,
+                "name": "ANALISIS DE FABRICACION",
+                "id_semester": 5
+            },
+            {
+                "id": 289,
+                "name": "LABORATORIO DE ELECTRICIDAD INDUSTRIAL",
+                "id_semester": 5
+            },
+            {
+                "id": 290,
+                "name": "FUNDAMENTO DE TERMODINAMICA",
+                "id_semester": 5
+            },
+            {
+                "id": 291,
+                "name": "DISEÑO MECANICO",
+                "id_semester": 5
+            },
+            {
+                "id": 292,
+                "name": "LABORATORIO DE MATERIALES",
+                "id_semester": 5
+            }
+        ],
+        "semestre 6": [
+            {
+                "id": 293,
+                "name": "PROYECTO FIN DE CARRERA",
+                "id_semester": 6
+            },
+            {
+                "id": 294,
+                "name": "SOLDADURA",
+                "id_semester": 6
+            },
+            {
+                "id": 295,
+                "name": "CONTROL NUMERICO PARA MANUFACTURAS",
+                "id_semester": 6
+            },
+            {
+                "id": 296,
+                "name": "EQUIPOS INDUSTRIALES",
+                "id_semester": 6
+            },
+            {
+                "id": 297,
+                "name": "AUTOMATIZACION Y CONTROL",
+                "id_semester": 6
+            }
+        ]
+    }
+}

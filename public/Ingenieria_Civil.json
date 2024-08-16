@@ -1,0 +1,294 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 393,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 1
+            },
+            {
+                "id": 394,
+                "name": "COMPRENSION Y EXPRESION LINGUISTICA",
+                "id_semester": 1
+            },
+            {
+                "id": 395,
+                "name": "INGLES INSTRUMENTAL",
+                "id_semester": 1
+            },
+            {
+                "id": 396,
+                "name": "MATEMATICAS I",
+                "id_semester": 1
+            },
+            {
+                "id": 397,
+                "name": "QUIMICA I",
+                "id_semester": 1
+            },
+            {
+                "id": 398,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 399,
+                "name": "FISICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 400,
+                "name": "INGLES TECNICO I",
+                "id_semester": 2
+            },
+            {
+                "id": 401,
+                "name": "MATEMATICAS II",
+                "id_semester": 2
+            },
+            {
+                "id": 402,
+                "name": "INTRODUCCION A LA INGENIERIA CIVIL",
+                "id_semester": 2
+            },
+            {
+                "id": 403,
+                "name": "GEOMETRIA DESCRIPTIVA",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 404,
+                "name": "LABORATORIO DE FISICA I",
+                "id_semester": 3
+            },
+            {
+                "id": 405,
+                "name": "FISICA II",
+                "id_semester": 3
+            },
+            {
+                "id": 406,
+                "name": "MATEMATICAS III",
+                "id_semester": 3
+            },
+            {
+                "id": 407,
+                "name": "INTRODUCCION A LA PROGRAMACION",
+                "id_semester": 3
+            },
+            {
+                "id": 408,
+                "name": "MECANICA PARA INGENIEROS I",
+                "id_semester": 3
+            },
+            {
+                "id": 409,
+                "name": "TOPOGRAFIA I",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 410,
+                "name": "MATEMATICAS IV",
+                "id_semester": 4
+            },
+            {
+                "id": 411,
+                "name": "ESTADISTICA APLICADA",
+                "id_semester": 4
+            },
+            {
+                "id": 412,
+                "name": "MECANICA PARA INGENIEROS II",
+                "id_semester": 4
+            },
+            {
+                "id": 413,
+                "name": "DIBUJO DE PROYECTOS",
+                "id_semester": 4
+            },
+            {
+                "id": 414,
+                "name": "METODOS Y SISTEMAS",
+                "id_semester": 4
+            },
+            {
+                "id": 415,
+                "name": "TOPOGRAFIA II",
+                "id_semester": 4
+            }
+        ],
+        "semestre 5": [
+            {
+                "id": 416,
+                "name": "METODOS NUMERICOS PARA ING.",
+                "id_semester": 5
+            },
+            {
+                "id": 417,
+                "name": "GEOLOGIA GENERAL",
+                "id_semester": 5
+            },
+            {
+                "id": 418,
+                "name": "MECANICA DE LOS FLUIDOS",
+                "id_semester": 5
+            },
+            {
+                "id": 419,
+                "name": "HIDROLOGIA BASICA",
+                "id_semester": 5
+            },
+            {
+                "id": 420,
+                "name": "RESISTENCIA DE MATERIALES",
+                "id_semester": 5
+            }
+        ],
+        "semestre 6": [
+            {
+                "id": 421,
+                "name": "ESTRUCTURA URBANO-AMBIENTAL",
+                "id_semester": 6
+            },
+            {
+                "id": 422,
+                "name": "INGENIERIA HIDRAULICA",
+                "id_semester": 6
+            },
+            {
+                "id": 423,
+                "name": "MATERIALES DE CONSTRUCCION",
+                "id_semester": 6
+            },
+            {
+                "id": 424,
+                "name": "INGENIERIA DE TRANSITO I",
+                "id_semester": 6
+            },
+            {
+                "id": 425,
+                "name": "ANALISIS ESTRUCTURAL I",
+                "id_semester": 6
+            }
+        ],
+        "semestre 7": [
+            {
+                "id": 426,
+                "name": "INGENIERIA AMBIENTAL",
+                "id_semester": 7
+            },
+            {
+                "id": 427,
+                "name": "ESTRUCTURAS METALICAS I",
+                "id_semester": 7
+            },
+            {
+                "id": 428,
+                "name": "LABORATORIO DE HIDRAULICA",
+                "id_semester": 7
+            },
+            {
+                "id": 429,
+                "name": "MECANICA DE SUELOS",
+                "id_semester": 7
+            },
+            {
+                "id": 430,
+                "name": "CONCRETO ARMADO",
+                "id_semester": 7
+            },
+            {
+                "id": 431,
+                "name": "ANALISIS ESTRUCTURAL II",
+                "id_semester": 7
+            },
+            {
+                "id": 432,
+                "name": "VIAS DE COMUNICACION I",
+                "id_semester": 7
+            }
+        ],
+        "semestre 8": [
+            {
+                "id": 433,
+                "name": "INGENIERIA SANITARIA I",
+                "id_semester": 8
+            },
+            {
+                "id": 434,
+                "name": "TALLER DE CONSTRUCCION Y EQUIPOS",
+                "id_semester": 8
+            },
+            {
+                "id": 435,
+                "name": "INT A LA INGENIERIA SISMO-RESISTENTE",
+                "id_semester": 8
+            },
+            {
+                "id": 436,
+                "name": "PROYECTOS DE INGENIERIA I",
+                "id_semester": 8
+            },
+            {
+                "id": 437,
+                "name": "VIAS DE COMUNICACION II",
+                "id_semester": 8
+            },
+            {
+                "id": 438,
+                "name": "INGENIERIA DE FUNDACIONES",
+                "id_semester": 8
+            }
+        ],
+        "semestre 9": [
+            {
+                "id": 439,
+                "name": "SEMINARIO DE INVESTIGACION",
+                "id_semester": 9
+            },
+            {
+                "id": 440,
+                "name": "ASPECTOS LEGALES Y PROFESIONALES",
+                "id_semester": 9
+            },
+            {
+                "id": 441,
+                "name": "INGENIERIA SANITARIA II",
+                "id_semester": 9
+            },
+            {
+                "id": 442,
+                "name": "ADMINISTRACION. Y CONTROL DE OBRAS",
+                "id_semester": 9
+            },
+            {
+                "id": 443,
+                "name": "PROYECTOS DE INGENIERIA II",
+                "id_semester": 9
+            },
+            {
+                "id": 444,
+                "name": "DISEÑO DE PAVIMENTOS",
+                "id_semester": 9
+            }
+        ],
+        "semestre 10": [
+            {
+                "id": 445,
+                "name": "GERENCIA PARA INGENIEROS",
+                "id_semester": 10
+            },
+            {
+                "id": 446,
+                "name": "FORMULACION Y EVALUACION DE PROYECTOS",
+                "id_semester": 10
+            }
+        ]
+    }
+}

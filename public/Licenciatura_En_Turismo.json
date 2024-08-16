@@ -1,0 +1,127 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 656,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 1
+            },
+            {
+                "id": 657,
+                "name": "EXPRESION ORAL Y ESCRITA",
+                "id_semester": 1
+            },
+            {
+                "id": 658,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 1
+            },
+            {
+                "id": 659,
+                "name": "INTRODUCCION AL TURISMO",
+                "id_semester": 1
+            },
+            {
+                "id": 660,
+                "name": "GEOGRAFIA Y TURISMO",
+                "id_semester": 1
+            },
+            {
+                "id": 661,
+                "name": "MATEMATICA",
+                "id_semester": 1
+            },
+            {
+                "id": 662,
+                "name": "HISTORIA DE LA CULTURA VENEZOLANA",
+                "id_semester": 1
+            },
+            {
+                "id": 663,
+                "name": "INGLES I",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 664,
+                "name": "PSICOLOGIA Y TURISMO",
+                "id_semester": 2
+            },
+            {
+                "id": 665,
+                "name": "ADMINISTRACION DE EMPRESAS TURISTICAS",
+                "id_semester": 2
+            },
+            {
+                "id": 666,
+                "name": "INFORMATICA",
+                "id_semester": 2
+            },
+            {
+                "id": 667,
+                "name": "ESTADISTICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 668,
+                "name": "PATRIMONIO CULTURAL",
+                "id_semester": 2
+            },
+            {
+                "id": 669,
+                "name": "INGLES II",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 670,
+                "name": "SOCIOLOGIA DEL TURISMO",
+                "id_semester": 3
+            },
+            {
+                "id": 671,
+                "name": "ORGANIZACION Y POLOTICA DEL TURISMO",
+                "id_semester": 3
+            },
+            {
+                "id": 672,
+                "name": "ESTADASTICA II",
+                "id_semester": 3
+            },
+            {
+                "id": 673,
+                "name": "PATRIMONIO CULTURAL II",
+                "id_semester": 3
+            },
+            {
+                "id": 674,
+                "name": "INGLES III",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 675,
+                "name": "CONTABILIDAD",
+                "id_semester": 4
+            },
+            {
+                "id": 676,
+                "name": "ECONOMIA I",
+                "id_semester": 4
+            },
+            {
+                "id": 677,
+                "name": "INGLES IV",
+                "id_semester": 4
+            },
+            {
+                "id": 678,
+                "name": "LEGISLACION DEL TURISMO",
+                "id_semester": 4
+            }
+        ]
+    }
+}

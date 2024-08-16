@@ -1,0 +1,302 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 497,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 1
+            },
+            {
+                "id": 498,
+                "name": "COMPRENSION Y EXPRESION LINGUISTICA",
+                "id_semester": 1
+            },
+            {
+                "id": 499,
+                "name": "INGLES INSTRUMENTAL",
+                "id_semester": 1
+            },
+            {
+                "id": 500,
+                "name": "MATEMATICAS I",
+                "id_semester": 1
+            },
+            {
+                "id": 501,
+                "name": "DES. DEST. PARA EL APRENDIZAJE",
+                "id_semester": 1
+            },
+            {
+                "id": 502,
+                "name": "QUIMICA GENERAL",
+                "id_semester": 1
+            },
+            {
+                "id": 503,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 504,
+                "name": "FISICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 505,
+                "name": "COMPRENSION Y EXPRESION LINGUISTICA II",
+                "id_semester": 2
+            },
+            {
+                "id": 506,
+                "name": "INGLES TECNICO I",
+                "id_semester": 2
+            },
+            {
+                "id": 507,
+                "name": "MATEMATICAS II",
+                "id_semester": 2
+            },
+            {
+                "id": 508,
+                "name": "LOGICA MATEMATICA",
+                "id_semester": 2
+            },
+            {
+                "id": 509,
+                "name": "INT A LA INGENIERIA EN COMPUTACION",
+                "id_semester": 2
+            },
+            {
+                "id": 510,
+                "name": "COMPUTACION BASICA",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 511,
+                "name": "LABORATORIO DE FISICA I",
+                "id_semester": 3
+            },
+            {
+                "id": 512,
+                "name": "FISICA II",
+                "id_semester": 3
+            },
+            {
+                "id": 513,
+                "name": "MATEMATICAS III",
+                "id_semester": 3
+            },
+            {
+                "id": 514,
+                "name": "PROGRAMACION ORIENTADA A OBJETOS",
+                "id_semester": 3
+            },
+            {
+                "id": 515,
+                "name": "TALLER DE PROGRAMACION ORIENTADA A OBJETO",
+                "id_semester": 3
+            },
+            {
+                "id": 516,
+                "name": "MATEMATICAS DISCRETAS",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 517,
+                "name": "LAB. DE FISICA II",
+                "id_semester": 4
+            },
+            {
+                "id": 518,
+                "name": "MATEMATICAS IV",
+                "id_semester": 4
+            },
+            {
+                "id": 519,
+                "name": "ESTADISTICA I",
+                "id_semester": 4
+            },
+            {
+                "id": 520,
+                "name": "OBJETOS Y ABSTRACCION DE DATOS",
+                "id_semester": 4
+            },
+            {
+                "id": 521,
+                "name": "TALLER  DE OBJETOS Y ABSTRACCION DE DATOS",
+                "id_semester": 4
+            }
+        ],
+        "semestre 5": [
+            {
+                "id": 522,
+                "name": "CIRCUITOS Y SISTEMAS",
+                "id_semester": 5
+            },
+            {
+                "id": 523,
+                "name": "ESTRUCTURAS DE DATOS",
+                "id_semester": 5
+            },
+            {
+                "id": 524,
+                "name": "TALLER  DE ESTRUCTURAS DE DATOS",
+                "id_semester": 5
+            },
+            {
+                "id": 525,
+                "name": "TEORIA DE AUTAMATAS Y LENGUAJES FORMALES",
+                "id_semester": 5
+            },
+            {
+                "id": 526,
+                "name": "COMPUTACION GRAFICA I",
+                "id_semester": 5
+            },
+            {
+                "id": 527,
+                "name": "TALLER  DE COMPUTACION GRAFICA I",
+                "id_semester": 5
+            },
+            {
+                "id": 528,
+                "name": "METODOS NUMERICOS",
+                "id_semester": 5
+            }
+        ],
+        "semestre 6": [
+            {
+                "id": 529,
+                "name": "ANALISIS Y DISEÑO DE ALGORITMOS",
+                "id_semester": 6
+            },
+            {
+                "id": 530,
+                "name": "TALLER DE ANALISIS Y DISEÑO DE ALGORITMOS",
+                "id_semester": 6
+            },
+            {
+                "id": 531,
+                "name": "LENGUAJES DE PROGRAMACION",
+                "id_semester": 6
+            },
+            {
+                "id": 532,
+                "name": "TALLER DE LENGUAJES DE PROGRAMACION",
+                "id_semester": 6
+            },
+            {
+                "id": 533,
+                "name": "ELECTRONICA",
+                "id_semester": 6
+            },
+            {
+                "id": 534,
+                "name": "SISTEMAS DE BASES DE DATOS",
+                "id_semester": 6
+            },
+            {
+                "id": 535,
+                "name": "TALLER DE SISTEMAS DE BASES DE DATOS",
+                "id_semester": 6
+            }
+        ],
+        "semestre 7": [
+            {
+                "id": 536,
+                "name": "SISTEMAS OPERATIVOS",
+                "id_semester": 7
+            },
+            {
+                "id": 537,
+                "name": "INTELIGENCIA ARTIFICIAL",
+                "id_semester": 7
+            },
+            {
+                "id": 538,
+                "name": "TALLER DE INTELIGENCIA ARTIFICIAL",
+                "id_semester": 7
+            },
+            {
+                "id": 539,
+                "name": "LAB. DE CIRCUITOS Y ELECTRONICA",
+                "id_semester": 7
+            },
+            {
+                "id": 540,
+                "name": "ARQUITECTURA Y ORGANIZACION DEL COMPUTADO",
+                "id_semester": 7
+            },
+            {
+                "id": 541,
+                "name": "DISEÑO LOGICO",
+                "id_semester": 7
+            },
+            {
+                "id": 542,
+                "name": "DESARROLLO DE SOFTWARE",
+                "id_semester": 7
+            }
+        ],
+        "semestre 8": [
+            {
+                "id": 543,
+                "name": "SISTEMAS DE MICROPROCESAMIENTO",
+                "id_semester": 8
+            },
+            {
+                "id": 544,
+                "name": "LAB. DE DISEÑO LOGICO",
+                "id_semester": 8
+            },
+            {
+                "id": 545,
+                "name": "COMPUTACION CENTRADA EN REDES",
+                "id_semester": 8
+            },
+            {
+                "id": 546,
+                "name": "DESARROLLO DE SOFTWARE AVANZADO",
+                "id_semester": 8
+            },
+            {
+                "id": 547,
+                "name": "TALLER DE DESARROLLO DE SOFTWARE",
+                "id_semester": 8
+            }
+        ],
+        "semestre 9": [
+            {
+                "id": 548,
+                "name": "SEMINARIO DE  INVESTIGACION",
+                "id_semester": 9
+            },
+            {
+                "id": 549,
+                "name": "LEYES Y DEONTOLOGIA",
+                "id_semester": 9
+            },
+            {
+                "id": 550,
+                "name": "SEGURIDAD EN SISTEMAS COMPUTACIONALES",
+                "id_semester": 9
+            },
+            {
+                "id": 551,
+                "name": "PROYECTOS DE DIGITALES AVANZADOS",
+                "id_semester": 9
+            },
+            {
+                "id": 552,
+                "name": "LAB DE PROYECTOS DE DIGITALES AVANZ",
+                "id_semester": 9
+            }
+        ]
+    } 
+}

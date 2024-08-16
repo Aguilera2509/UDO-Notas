@@ -1,0 +1,360 @@
+{
+  "courses": {
+    "semestre 1": [
+      {
+        "id": 52,
+        "name": "BIOLOGIA I",
+        "id_semester": 1
+      },
+      {
+        "id": 53,
+        "name": "COMPRENSION Y EXPRESION LINGUISTICA",
+        "id_semester": 1
+      },
+      {
+        "id": 54,
+        "name": "DES. DEST. PARA EL APRENDIZAJE",
+        "id_semester": 1
+      },
+      {
+        "id": 55,
+        "name": "EXTRA ACADEMICA CULTURAL",
+        "id_semester": 1
+      },
+      {
+        "id": 56,
+        "name": "EXTRA ACADEMICA DEPORTIVA",
+        "id_semester": 1
+      },
+      {
+        "id": 57,
+        "name": "LAB. BIOLOGIA I",
+        "id_semester": 1
+      },
+      {
+        "id": 58,
+        "name": "MATEMATICAS I",
+        "id_semester": 1
+      },
+      {
+        "id": 59,
+        "name": "QUIMICA GENERAL",
+        "id_semester": 1
+      }
+    ],
+    "semestre 2": [
+      {
+        "id": 60,
+        "name": "BIOLOGIA II",
+        "id_semester": 2
+      },
+      {
+        "id": 61,
+        "name": "ESTADISTICA GENERAL",
+        "id_semester": 2
+      },
+      {
+        "id": 62,
+        "name": "FISICA MEDICA",
+        "id_semester": 2
+      },
+      {
+        "id": 63,
+        "name": "INGLES INST. AGROBIOLOGICA",
+        "id_semester": 2
+      },
+      {
+        "id": 64,
+        "name": "LAB. BIOLOGIA II",
+        "id_semester": 2
+      },
+      {
+        "id": 65,
+        "name": "QUIMICA ORGANICA",
+        "id_semester": 2
+      },
+      {
+        "id": 66,
+        "name": "SOCIOLOGIA DE LA SALUD",
+        "id_semester": 2
+      }
+    ],
+    "semestre 3": [
+      {
+        "id": 67,
+        "name": "ANATOMIA I",
+        "id_semester": 3
+      },
+      {
+        "id": 68,
+        "name": "CIENCIAS SOCIALES",
+        "id_semester": 3
+      },
+      {
+        "id": 69,
+        "name": "EMBRIOLOGIA",
+        "id_semester": 3
+      },
+      {
+        "id": 70,
+        "name": "ITPP I",
+        "id_semester": 3
+      }
+    ],
+    "semestre 4": [
+      {
+        "id": 71,
+        "name": "ANATOMIA II",
+        "id_semester": 4
+      },
+      {
+        "id": 72,
+        "name": "BIOQUIMICA",
+        "id_semester": 4
+      },
+      {
+        "id": 73,
+        "name": "INFORMATICA",
+        "id_semester": 4
+      },
+      {
+        "id": 74,
+        "name": "ITPP II",
+        "id_semester": 4
+      },
+      {
+        "id": 75,
+        "name": "PSICOLOGIA EVOLUTIVA",
+        "id_semester": 4
+      }
+    ],
+    "semestre 5": [
+      {
+        "id": 76,
+        "name": "ESTADISTICA",
+        "id_semester": 5
+      },
+      {
+        "id": 77,
+        "name": "FISIOLOGIA",
+        "id_semester": 5
+      },
+      {
+        "id": 78,
+        "name": "HISTOLOGIA",
+        "id_semester": 5
+      },
+      {
+        "id": 79,
+        "name": "ITPP III",
+        "id_semester": 5
+      }
+    ],
+    "semestre 6": [
+      {
+        "id": 80,
+        "name": "EPID. GEN. Y SANEAMIENTO AMBIENTAL",
+        "id_semester": 6
+      },
+      {
+        "id": 81,
+        "name": "ITPP IV",
+        "id_semester": 6
+      },
+      {
+        "id": 82,
+        "name": "MICROBIOLOGIA E INMUN. CLINIC",
+        "id_semester": 6
+      },
+      {
+        "id": 83,
+        "name": "PARASITOLOGIA",
+        "id_semester": 6
+      },
+      {
+        "id": 84,
+        "name": "PSICOLOGIA MEDICA",
+        "id_semester": 6
+      }
+    ],
+    "semestre 7": [
+      {
+        "id": 85,
+        "name": "ANATOMIA PATOLOGICA",
+        "id_semester": 7
+      },
+      {
+        "id": 116,
+        "name": "FISIOPATOLOGIA",
+        "id_semester": 7
+      },
+      {
+        "id": 117,
+        "name": "SEMIOLOGIA (MEDICINA I)",
+        "id_semester": 7
+      }
+    ],
+    "semestre 8": [
+      {
+        "id": 86,
+        "name": "CIRUGIA I",
+        "id_semester": 8
+      },
+      {
+        "id": 87,
+        "name": "FARMACOLOGIA I",
+        "id_semester": 8
+      },
+      {
+        "id": 88,
+        "name": "GENETICA",
+        "id_semester": 8
+      },
+      {
+        "id": 89,
+        "name": "GINECOLOGIA Y OBSTETRICIA I",
+        "id_semester": 8
+      },
+      {
+        "id": 90,
+        "name": "PUERICULTURA",
+        "id_semester": 8
+      }
+    ],
+    "semestre 9": [
+      {
+        "id": 91,
+        "name": "FARMACOLOGIA II",
+        "id_semester": 9
+      },
+      {
+        "id": 92,
+        "name": "MEDICINA II",
+        "id_semester": 9
+      },
+      {
+        "id": 93,
+        "name": "PEDIATRIA I",
+        "id_semester": 9
+      },
+      {
+        "id": 94,
+        "name": "PSICOPATOLOGIA",
+        "id_semester": 9
+      }
+    ],
+    "semestre 10": [
+      {
+        "id": 95,
+        "name": "CIRUGIA II",
+        "id_semester": 10
+      },
+      {
+        "id": 96,
+        "name": "DEONTOLOGIA MEDICA",
+        "id_semester": 10
+      },
+      {
+        "id": 97,
+        "name": "EPIDEMIOLOGIA ESPECIAL",
+        "id_semester": 10
+      },
+      {
+        "id": 98,
+        "name": "GINECOLOGIA Y OBSTETRICIA II",
+        "id_semester": 10
+      },
+      {
+        "id": 99,
+        "name": "MEDICINA III",
+        "id_semester": 10
+      }
+    ],
+    "semestre 11": [
+      {
+        "id": 100,
+        "name": "ADMINISTRACION MEDICA",
+        "id_semester": 11
+      },
+      {
+        "id": 101,
+        "name": "IMAGENOLOGIA",
+        "id_semester": 11
+      },
+      {
+        "id": 102,
+        "name": "MEDICINA IV",
+        "id_semester": 11
+      },
+      {
+        "id": 103,
+        "name": "MEDICINA LEGAL",
+        "id_semester": 11
+      },
+      {
+        "id": 104,
+        "name": "PEDIATRIA II",
+        "id_semester": 11
+      }
+    ],
+    "semestre 12": [
+      {
+        "id": 105,
+        "name": "CIRUGIA III",
+        "id_semester": 12
+      },
+      {
+        "id": 106,
+        "name": "HISTORIA DE LA MEDICINA",
+        "id_semester": 12
+      },
+      {
+        "id": 107,
+        "name": "MEDICINA DEL TRABAJO",
+        "id_semester": 12
+      },
+      {
+        "id": 108,
+        "name": "MEDICINA V",
+        "id_semester": 12
+      },
+      {
+        "id": 109,
+        "name": "PSIQUIATRIA CLINICA",
+        "id_semester": 12
+      }
+    ],
+    "semestre 13": [
+      {
+        "id": 110,
+        "name": "GINECOLOGIA Y OBSTETRICIA III",
+        "id_semester": 13
+      },
+      {
+        "id": 111,
+        "name": "HIGIENE MENTAL Y PSICOTERAPIA",
+        "id_semester": 13
+      },
+      {
+        "id": 112,
+        "name": "MEDICINA VI",
+        "id_semester": 13
+      },
+      {
+        "id": 113,
+        "name": "PASANTIA RURAL",
+        "id_semester": 13
+      },
+      {
+        "id": 114,
+        "name": "PEDIATRIA III",
+        "id_semester": 13
+      },
+      {
+        "id": 115,
+        "name": "CIRUGIA IV",
+        "id_semester": 13
+      }
+    ]
+  }
+}

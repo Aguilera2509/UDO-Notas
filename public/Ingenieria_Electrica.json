@@ -1,0 +1,279 @@
+{
+    "courses": {
+        "semestre 1": [
+            {
+                "id": 1,
+                "name": "COMPRENSION Y EXPRESION LINGUISTICA",
+                "id_semester": 1
+            },
+            {
+                "id": 2,
+                "name": "INGLES INSTRUMENTAL",
+                "id_semester": 1
+            },
+            {
+                "id": 3,
+                "name": "INTRODUCCION A LA INGENIERIA ELECTRICA",
+                "id_semester": 1
+            },
+            {
+                "id": 4,
+                "name": "MATEMATICAS I",
+                "id_semester": 1
+            },
+            {
+                "id": 5,
+                "name": "QUIMICA GENERAL",
+                "id_semester": 1
+            }
+        ],
+        "semestre 2": [
+            {
+                "id": 6,
+                "name": "COMPRENSION Y EXPRESION LINGUISTICA II",
+                "id_semester": 2
+            },
+            {
+                "id": 7,
+                "name": "EXTRA ACADEMICA CULTURAL",
+                "id_semester": 2
+            },
+            {
+                "id": 8,
+                "name": "EXTRA ACADEMICA DEPORTIVA",
+                "id_semester": 2
+            },
+            {
+                "id": 9,
+                "name": "FISICA I",
+                "id_semester": 2
+            },
+            {
+                "id": 10,
+                "name": "INGLES ESPECIFICO I",
+                "id_semester": 2
+            },
+            {
+                "id": 11,
+                "name": "MATEMATICAS II",
+                "id_semester": 2
+            },
+            {
+                "id": 12,
+                "name": "REDES Y MEDICIONES",
+                "id_semester": 2
+            },
+            {
+                "id": 13,
+                "name": "TALLER DE COMPUTACION I",
+                "id_semester": 2
+            }
+        ],
+        "semestre 3": [
+            {
+                "id": 14,
+                "name": "CIRCUITOS ELECTRICOS I",
+                "id_semester": 3
+            },
+            {
+                "id": 15,
+                "name": "FISICA II",
+                "id_semester": 3
+            },
+            {
+                "id": 16,
+                "name": "INGLES ESPECIFICO II",
+                "id_semester": 3
+            },
+            {
+                "id": 17,
+                "name": "LAB. DE MEDICIONES Y REDES",
+                "id_semester": 3
+            },
+            {
+                "id": 18,
+                "name": "MATEMATICAS III",
+                "id_semester": 3
+            },
+            {
+                "id": 19,
+                "name": "TALLER DE COMPUTACION II",
+                "id_semester": 3
+            }
+        ],
+        "semestre 4": [
+            {
+                "id": 20,
+                "name": "CIRCUITOS ELECTRICOS II",
+                "id_semester": 4
+            },
+            {
+                "id": 21,
+                "name": "ELECTRODINAMICA I",
+                "id_semester": 4
+            },
+            {
+                "id": 22,
+                "name": "ELECTRONICA I",
+                "id_semester": 4
+            },
+            {
+                "id": 23,
+                "name": "FISICA III",
+                "id_semester": 4
+            },
+            {
+                "id": 24,
+                "name": "LABORATORIO I DE CIRCUITOS",
+                "id_semester": 4
+            },
+            {
+                "id": 25,
+                "name": "MATEMATICAS IV",
+                "id_semester": 4
+            }
+        ],
+        "semestre 5": [
+            {
+                "id": 26,
+                "name": "CIRCUITOS DIGITALES",
+                "id_semester": 5
+            },
+            {
+                "id": 27,
+                "name": "ELECTRODINAMICA II",
+                "id_semester": 5
+            },
+            {
+                "id": 28,
+                "name": "ELECTRONICA II",
+                "id_semester": 5
+            },
+            {
+                "id": 29,
+                "name": "LAB. DE CIRCUITOS ELEC. II",
+                "id_semester": 5
+            },
+            {
+                "id": 30,
+                "name": "LAB. I DE ELECTRONICA",
+                "id_semester": 5
+            },
+            {
+                "id": 31,
+                "name": "MAQUINAS ELECTRICAS I",
+                "id_semester": 5
+            },
+            {
+                "id": 32,
+                "name": "METODOS NUMERICOS PARA INGENIEROS",
+                "id_semester": 5
+            }
+        ],
+        "semestre 6": [
+            {
+                "id": 33,
+                "name": "COMPUTACION APL. A LA ING.",
+                "id_semester": 6
+            },
+            {
+                "id": 34,
+                "name": "LABORATORIO DE MAQUINAS ELECTRICAS I",
+                "id_semester": 6
+            },
+            {
+                "id": 35,
+                "name": "LABORATORIO II DE ELECTRONICA",
+                "id_semester": 6
+            },
+            {
+                "id": 36,
+                "name": "MAQUINAS ELECTRICAS II",
+                "id_semester": 6
+            },
+            {
+                "id": 37,
+                "name": "SISTEMAS DE CONTROL I",
+                "id_semester": 6
+            },
+            {
+                "id": 38,
+                "name": "SISTEMAS DE MICROPROCESADORES I",
+                "id_semester": 6
+            },
+            {
+                "id": 39,
+                "name": "TRANSMISION I",
+                "id_semester": 6
+            }
+        ],
+        "semestre 7": [
+            {
+                "id": 40,
+                "name": "ALUMBRADO E INSTALACIONES ELECTRICAS",
+                "id_semester": 7
+            },
+            {
+                "id": 41,
+                "name": "ESTADISTICA",
+                "id_semester": 7
+            },
+            {
+                "id": 42,
+                "name": "LAB. DE CIRCUITOS DIGITALES",
+                "id_semester": 7
+            },
+            {
+                "id": 43,
+                "name": "LAB. DE MAQUINAS ELECTRICAS II",
+                "id_semester": 7
+            },
+            {
+                "id": 44,
+                "name": "TELECOMUNICACIONES",
+                "id_semester": 7
+            }
+        ],
+        "semestre 8": [
+            {
+                "id": 45,
+                "name": "AUTOMATIZACION Y CONTROL DE PROCESOS",
+                "id_semester": 8
+            },
+            {
+                "id": 46,
+                "name": "LEYES Y DEONTOLOGIA",
+                "id_semester": 8
+            },
+            {
+                "id": 47,
+                "name": "MANTENIMIENTO DE SISTEMAS ELECTRICOS",
+                "id_semester": 8
+            },
+            {
+                "id": 48,
+                "name": "SEMINARIO DE INVESTIGACION",
+                "id_semester": 8
+            }
+        ],
+        "semestre 9": [
+            {
+                "id": 49,
+                "name": "FORMACION EMPRESARIAL",
+                "id_semester": 9
+            },
+            {
+                "id": 50,
+                "name": "SEMINARIO INGENIERIA ELECTRICA",
+                "id_semester": 9
+            }
+        ],
+        "semestre 10": [
+            {
+                "id": 51,
+                "name": "TRABAJO DE GRADO",
+                "id_semester": 10
+            }
+        ]
+    }
+}
