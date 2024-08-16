@@ -1,6 +1,5 @@
 "use client"
 
-//import Image from "next/image";
 //import styles from "./page.module.css";
 
 import Row from "@/components/css_grid/rowDiv";
@@ -19,13 +18,12 @@ export default function Home() {
     semester: "",
     course: ""
   });
-
   const [progress, setProgress] = useState(0);
 
   return (
     <>
       <header className="text-bg-dark p-3 text-center">
-        <h2 className="fw-semibold">Bienvenidos sean Udistas</h2>
+        <h2 className="fw-semibold">Bienvenidos sean, Udistas</h2>
       </header>
 
       <ThemeProvider>
@@ -56,7 +54,6 @@ export default function Home() {
 
         </Row>
       </ThemeProvider>
-
     </>
   );
 }

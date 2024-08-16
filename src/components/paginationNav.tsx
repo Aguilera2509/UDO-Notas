@@ -28,7 +28,3 @@ function Pagination_Links({ sizeArray, handlePagination, page }: { sizeArray:num
 
     return renderValue;
 };
-
-/*
-    renderValue.push(<li className="page-item" key={(Date.now() + i)}><a className="page-link" onClick={(e) => handlePagination(e)} >{i+1}</a></li>)
-*/
