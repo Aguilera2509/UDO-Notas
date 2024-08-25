@@ -8,18 +8,12 @@ import Subject_Matter from "@/components/matterNav";
 import Explication from "@/components/introDiv";
 import Notes from "@/components/notesSection";
 import Buttons from "@/components/buttonsFooter";
-import { useState } from "react";
-import { TFilterData } from "@/lib/types";
+import ProgressBar from "@/components/showingProgressBar";
 import { ThemeProvider } from "@/useContext/themeContext";
+import { ProgressBarProvider } from "@/useContext/progressBarContext";
+import { FilterDataProvider } from "@/useContext/filterDataContext";
 
 export default function Home() {
-  const [filterData, setFilterData] = useState<TFilterData>({
-    speciality: "",
-    semester: "",
-    course: ""
-  });
-  const [progress, setProgress] = useState(0);
-
   return (
     <>
       <header className="text-bg-dark p-3 text-center">
@@ -27,32 +21,45 @@ export default function Home() {
       </header>
 
       <ThemeProvider>
-        <Row styles="container-fluid text-center p-4">
-          
-          <Columns styles="p-2 col-md-3 col-sm-12">
-            <Subject_Matter filterData={filterData} setFilterData={setFilterData} />
-          </Columns>
-            
-          <Columns styles="p-2 col-md-9 col-sm-12">
-            <Explication />
+        <ProgressBarProvider>
+          <FilterDataProvider>
 
-            {progress !== 0 &&
-              <div className="alert alert-success" role="alert">
-                Subiendo archivo {progress}%
-              </div>
-            }
+            <Row styles="container-fluid text-center p-4">
+              
+              <Columns styles="p-2 col-md-3 col-sm-12">
+                <Subject_Matter />
 
-            <div className="card text-center">
-              <div className="card-header text-bg-dark">
-                Notas de los Udistas
-              </div>
-            
-                <Notes filterData={filterData} />
-                <Buttons progress={progress} setProgress={setProgress} />
-            </div>
-          </Columns>
+                <div className="card m-3">
+                  <div className="card-body">
+                    <blockquote className="blockquote mb-0">
+                      <p>Thinking less, doing more being starving and thirsty of knowledge</p>
+                      <footer className="blockquote-footer text-start">Author: <cite title="Source Title">Unknown</cite></footer>
+                      <footer className="blockquote-footer text-start">Nick: <cite title="Source Title">Alejo</cite></footer>
+                    </blockquote>
+                  </div>
+                </div>
 
-        </Row>
+              </Columns>
+                
+              <Columns styles="p-2 col-md-9 col-sm-12">
+                <Explication />
+
+                <ProgressBar />
+  
+                <div className="card text-center">
+                  <div className="card-header text-bg-dark">
+                    Notas de los Udistas
+                  </div>
+                
+                    <Notes />
+                    <Buttons />
+                </div>
+              </Columns>
+
+            </Row>
+
+          </FilterDataProvider>
+        </ProgressBarProvider>
       </ThemeProvider>
     </>
   );

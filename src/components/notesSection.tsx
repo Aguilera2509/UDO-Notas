@@ -1,19 +1,20 @@
 "use client"
 
 import CardToShowNotes from "./notes_cardDiv";
-import { getDocs, collection, query } from "firebase/firestore";
+import { getDocs, collection, query, orderBy } from "firebase/firestore";
 import { dbFirestore } from "@/lib/firebase";
 import { Dispatch, ReactNode, SetStateAction, useContext, useEffect, useState } from "react";
-import { TCourse, TFORM, TFilterData } from "@/lib/types";
+import { TCourse, TFORM } from "@/lib/types";
 import Loader from "./loaderDiv";
 import { ErrAlert, NotDataAlert } from "./alertsDiv";
 import { speciality } from "@/helpers/globalVariables";
 import ThemeContext from "@/useContext/themeContext";
+import FilterDataContext from "@/useContext/filterDataContext";
 
-const maxArraySize = 15;
+const maxArraySize:number = 15;
 
 async function queryData(sem:string, sp:string, course:string, setCollectionFb: Dispatch<SetStateAction<TFORM[][]>>, setNotData: Dispatch<SetStateAction<boolean>>, contextSizeArray:Dispatch<SetStateAction<number>>){
-    const queryFb = query(collection(dbFirestore, `${sem}/${sp}/${course}`));
+    const queryFb = query(collection(dbFirestore, `${sem}/${sp}/${course}`), orderBy("date", "desc"));
     const { docs } = await getDocs(queryFb) as any;
 
     if(docs.length === 0) return setNotData(true);
@@ -34,7 +35,7 @@ async function queryData(sem:string, sp:string, course:string, setCollectionFb: 
     contextSizeArray(pagination.length);
 };
 
-export default function Notes({ filterData }:{ filterData:TFilterData }){
+export default function Notes(){
     const [collectionFb, setCollectionFb] = useState<TFORM[][]>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [err, setErr] = useState<string>("");
@@ -48,13 +49,14 @@ export default function Notes({ filterData }:{ filterData:TFilterData }){
     const [randomSpeciality, setRandomSpeciality] = useState<number>(Math.floor(Math.random() * 15)); 
 
     const context = useContext(ThemeContext);
+    const { filterData } = useContext(FilterDataContext);
 
     const getCollectionFirebase = async() => {
         try {
-            if(!/^ *$/.test(filterData.semester) && !/^ *$/.test(filterData.speciality) && !/^ *$/.test(filterData.course)){
-                queryData(filterData.semester, filterData.speciality, filterData.course, setCollectionFb, setNotData, context.setSizeArray);
-            }else{
+            if(/^ *$/.test(filterData.semester) && /^ *$/.test(filterData.speciality) && /^ *$/.test(filterData.course)){
                 queryData(semesters[randomNumberSem], speciality[randomSpeciality], courses[randomNumberCourse].name, setCollectionFb, setNotData, context.setSizeArray);
+            }else{
+                queryData(filterData.semester, filterData.speciality, filterData.course, setCollectionFb, setNotData, context.setSizeArray);
             };
         }catch(err){
             console.error(err);

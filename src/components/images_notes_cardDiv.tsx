@@ -10,5 +10,4 @@ export const ShowImages = ({ img }: { img:string }) => {
             </Link>
         </Columns>
     );
-
 };

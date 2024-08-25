@@ -2,9 +2,8 @@ import Row from "./css_grid/rowDiv";
 import Columns from "./css_grid/columnsDiv";
 import Pagination_Notes from "./paginationNav";
 import NoteToMake from "./note_modalDiv";
-import { Dispatch, SetStateAction } from "react";
 
-export default function Buttons({ progress, setProgress }:{ progress:number, setProgress:Dispatch<SetStateAction<number>> }){
+export default function Buttons(){
     return(
         <>
             <div className="card-footer text-body-secondary border-top border-1 border-success">
@@ -19,7 +18,7 @@ export default function Buttons({ progress, setProgress }:{ progress:number, set
                 </Row>
             </div>
 
-            <NoteToMake progress={progress} setProgress={setProgress} />
+            <NoteToMake />
         </>
     );
 };

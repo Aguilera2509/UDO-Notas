@@ -12,8 +12,10 @@ function time(id_date:number):string{
     let day:number = postingDate.getDate();
     let month:number = postingDate.getMonth() + 1; //start at 0, getMonth works between 0 - 11;
     let year:number = postingDate.getFullYear();
+    let hour:number = postingDate.getHours();
+    let minute:number | string = postingDate.getMinutes().toString().length === 1 ? `0${postingDate.getMinutes()}` : postingDate.getMinutes()
 
-    const formattedHuman:string = `Publicado el ${day}/${month}/${year} (Modo de Fecha Latina)`;
+    const formattedHuman:string = `Publicado el ${day}/${month}/${year} a las ${hour}:${minute} (Modo de Fecha Latina)`;
     return formattedHuman;
 };
 
@@ -24,17 +26,24 @@ export default function CardToShowNotes({ dataToShow }:{ dataToShow:TFORM }){
         if(dataToShow.files.length === 0) return;
 
         const gettingImage = async() => {
-            const promises = dataToShow.files.map(async (file) => {
-                const pathReference = ref(
-                  storageFirebase,
-                  `semestre ${dataToShow.semester}/${dataToShow.speciality}/${dataToShow.course}/${dataToShow.professor} && ${dataToShow.date}/${file}`
-                );
-                const url = await getDownloadURL(pathReference);
-                return url;
-            });
-            
-            const urls = await Promise.all(promises);
-            setImage(urls);
+            try{
+                const promises = dataToShow.files.map(async (file) => {
+                    const pathReference = ref(
+                        storageFirebase,
+                        `semestre ${dataToShow.semester}/${dataToShow.speciality}/${dataToShow.course}/${dataToShow.professor} && ${dataToShow.date}/${file}`
+                    );
+
+                    const url = await getDownloadURL(pathReference);
+
+                    return url;
+                });
+                
+                const urls = await Promise.all(promises);
+
+                setImage(urls);
+            }catch(err){
+                console.error(err);
+            };
         };
 
         gettingImage();

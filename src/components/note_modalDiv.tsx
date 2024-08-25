@@ -1,13 +1,15 @@
 "use client"
 
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { TFORM, TOptionSpeciality, TOptionsCarreer, TPARAMETERSFORM } from "@/lib/types";
 import { dbFirestore, storageFirebase } from "@/lib/firebase.js";
 import { doc, setDoc } from "firebase/firestore";
-import { ref, uploadBytesResumable} from "firebase/storage"; 
+import { ref, uploadBytesResumable } from "firebase/storage"; 
 import { gettingCourses } from "@/helpers/localFetch";
 import { allSemesters } from "@/helpers/globalVariables";
 import { InvalidData } from "./alertsDiv";
+import ProgressBarContext from "@/useContext/progressBarContext";
+import FilterDataContext from "@/useContext/filterDataContext";
 
 const optionSpeciality:TOptionSpeciality[] = [
     { value:"Administracion", label:"Administracion" },
@@ -37,7 +39,7 @@ const DATA_FORM:TFORM = {
     files: []
 };
 
-export default function NoteToMake({ progress, setProgress }:{ progress:number, setProgress:Dispatch<SetStateAction<number>> }){
+export default function NoteToMake(){
     const [form, setForm] = useState(DATA_FORM);
     const [files, setFiles] = useState<FileList | null>(null);
     const [optionsCarreer, setOptionsCarreer] = useState<TOptionsCarreer[]>([]);
@@ -47,6 +49,8 @@ export default function NoteToMake({ progress, setProgress }:{ progress:number, 
         files: false
     });
     const [validatedToSubmit, setValidateToSubmit] = useState(false);
+    const barContext = useContext(ProgressBarContext);
+    const { setFilterData } = useContext(FilterDataContext);
 
     const handleSubmit = async (e:React.FormEvent<HTMLFormElement>) =>{
         e.preventDefault();
@@ -72,23 +76,25 @@ export default function NoteToMake({ progress, setProgress }:{ progress:number, 
                 uploadTask.on('state_changed',
                     (snapshot) => {
                         const progress = Math.round((snapshot.bytesTransferred / snapshot.totalBytes) * 100);
-                        setProgress(progress);
+                        barContext.setProgress(progress);
                     },
                     (error) => {
                         console.error('Error uploading file:', error);
                     },
                     () => {
                         console.log(`File ${file.name} uploaded successfully!`);
-                        uploadPromises.push(Promise.resolve(progress));
+                        uploadPromises.push(Promise.resolve(barContext.progress));
                     }
                 );
             }
       
             Promise.all(uploadPromises).then(() => {
                 console.log('All files uploaded!');
-                setProgress(0);
+                barContext.setProgress(0);
             });
         };
+
+        setFilterData({ semester: `semestre ${form.semester}`, speciality: form.speciality, course: form.course });
 
         resetForm();
     };
@@ -96,6 +102,7 @@ export default function NoteToMake({ progress, setProgress }:{ progress:number, 
     const resetForm = () =>{
         setForm(DATA_FORM);
         setFiles(null);
+        setValidateToSubmit(false);
     };
 
     useEffect(()=> {
@@ -109,16 +116,16 @@ export default function NoteToMake({ progress, setProgress }:{ progress:number, 
     useEffect(()=> {
         if(/^ *$/.test(form.professor)) return;
 
-        if(!/[\w'\-,.][^0-9_!¡?÷?¿/.,-\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/.test(form.professor)){
+        if(/^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/.test(form.professor)){
             setInvalid(prev => ({
                 ...prev,
-                professor: true
+                professor: false
             }));
             return;
         }else{
             setInvalid(prev => ({
                 ...prev,
-                professor: false
+                professor: true
             }));
         };
     }, [form.professor]);
@@ -126,16 +133,16 @@ export default function NoteToMake({ progress, setProgress }:{ progress:number, 
     useEffect(()=> {
         if(/^ *$/.test(form.comment)) return;
 
-        if(!/^[\w'\-,.][^÷\ˆ]{10,600}$/.test(form.comment)) {
+        if(/^[\w'\-,.][^÷\ˆ]{10,600}$/.test(form.comment)) {
             setInvalid(prev => ({
                 ...prev,
-                comment: true
+                comment: false
             }));
             return;
         }else{
             setInvalid(prev => ({
                 ...prev,
-                comment: false
+                comment: true
             }));
         };
     }, [form.comment]);
@@ -181,7 +188,7 @@ export default function NoteToMake({ progress, setProgress }:{ progress:number, 
                                 <InvalidData msg="Err Professor: Escribe adecuadamente el nombre y apellido en minusculas, evitando usar signos y numeros" />
                             }
                             {invalid.comment &&
-                                <InvalidData msg="Err Comentario: Tu comentario tiene que tener entre 10 a 500 caracteres" />
+                                <InvalidData msg="Err Comentario: Tu comentario tiene que tener entre 10 a 550 caracteres" />
                             }
                             {invalid.files &&
                                 <InvalidData msg="Err Archivos: Solo puedes adjuntas maximo 3 imagenes" />
@@ -190,18 +197,11 @@ export default function NoteToMake({ progress, setProgress }:{ progress:number, 
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-danger" data-bs-dismiss="modal" onClick={resetForm}>Cerrar</button>
-                            {validatedToSubmit &&
-                                <button type="submit" className="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Enviar</button>
-                            }
-                            {!validatedToSubmit &&
-                                <button type="submit" className="btn btn-warning">Enviar</button>
-                            }
+                            <button type="submit" className="btn btn-warning" data-bs-dismiss={validatedToSubmit ? "modal" : ""}>Enviar</button>
                         </div>
                     </form>
                 </div>
             </div>
-
-            <Modal_Thanking />
         </>
     );
 };
@@ -271,23 +271,6 @@ function Modal_Body({form, setForm, setFiles, optionsCarreer}: TPARAMETERSFORM){
                 Adjuntar clases, examenes, tips, todo lo que sirva para expresar mejor tu comentario si se desea. NOT VIDEOS 
             </div>
         </>
-    );
-};
-
-function Modal_Thanking(){
-    return(
-        <div className="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex={-1} aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div className="modal-dialog">
-                <div className="modal-content">
-                    <div className="modal-body">
-                        Gracias por tu comentario, espero haya sido respetuoso, cuidate, my little random person : D 
-                    </div>
-                    <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
     );
 };
 

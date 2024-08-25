@@ -10,7 +10,9 @@ export default function Pagination_Notes(){
                 {context.page !== 0 &&
                     <li className="page-item"><a className="page-link" onClick={(e) => context.handlePagination(e)}>Previous</a></li>
                 }
+
                 <Pagination_Links sizeArray={context.sizeArray} handlePagination={(e) => context.handlePagination(e)} page={context.page} />
+
                 {context.sizeArray > 1 && (context.page+1) !== context.sizeArray &&
                     <li className="page-item"><a className="page-link" onClick={(e) => context.handlePagination(e)}>Next</a></li>
                 }
