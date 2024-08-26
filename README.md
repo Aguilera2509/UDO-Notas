@@ -1,55 +1,155 @@
-Edit so soon 
+This is a [Next.js](https://nextjs.org/) project made using [Cloud Firestore](https://firebase.google.com/docs/firestore), [Storage](https://firebase.google.com/docs/storage) of [Firebase](https://firebase.google.com), sessionStorage and [Bootstrap](https://getbootstrap.com).
 
-1.- Ingenieria Electrica  //// id from 1 to 51 ------------- 10
-2.- Medicina ///// id from 52 to 117 -------------- 13
-3.- Administracion //// id from 118 to 169 --------- 10
-4.- Arquitectura /// id from 170 to 211 ------------ 9
-4.- Ingenieria De Sistemas //// id from 212 to 259 ------------- 9
-5.- Tecnologico En Fabricacion Mecanica /// id from 260 to 297 --------------- 6
-6.- Tecnologilo En Electronica /// id from 298 to 340 ------------------ 6
-7.- Contaduria Publica /// id from 341 to 392 --------------- 10
-8.- Ingenieria Civil /// id from 393 to 446 --------------- 10
-9.- Ingenieria De Petroleo /// id from 447 to 496 --------- 9
-10.- Ingenieria En Computacion /// id from 497 to 552 ----------- 9
-11.- Ingenieria Industrial /// id from 553 to 606 ------------- 10
-12.- Ingenieria Quimica /// id 607 from 655 --------------- 10
-13.- Turismo /// id 656 from 678 --------------- 4
-14.- Ingenieria Mecaninca // id from 679 to 732  ------------------- 10
+IMPORTANT: Page disploy with the content in Spanish because of the public is Latino, so they speak Spanish not English, but the code and doc are in English.
 
+## About Page
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Web site made to the people who is studying right now within Universidad De Oriente(UDO) where everyone has the chance to reach knowlegde and experiences of anothers students about professors, carreers, courses and it even share their opinions themselves.
 
-## Getting Started
+A good and simple place where students not matter if they are ending up or joining the carreer, they can just express themselves and decide who sees the courses with.
 
-First, run the development server:
+## UDO's Carreers
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+UDO count with 15 different carreers, which are:
+
+| Carreer | Id | Total Semesters |
+| -- | -- | -- |
+| **1. Electrical Engineering** | 1-51 | 10 | 
+| **2. Medicina** | 52-117 | 13 |
+| **3. Administration** | 118-169 | 10 |
+| **4. Architecture** | 170-211 | 9 |
+| **5. Systems Engineering** | 212-259 | 9 |
+| **6. Technological in Mechanical Manufacturing** | 260-297 | 6 | 
+| **7. Technological in Electronics** | 298-340 | 6 |
+| **8. Public Accounting** | 341-392 | 10 |
+| **9. Civil Engineering** | 393-446 | 10 |
+| **10. Petroleum Engineering** | 447-496 | 9 |
+| **11. Computer Engineering** | 497-552 | 9 |
+| **12. Industrial Engineering** | 553-606 | 10 |
+| **13. Chemical Engineering** | 607-655 | 10 |
+| **14. Tourism** | 656-678 | 4 |
+| **15. Mechanical Engineering** | 679-732 | 10 |
+
+You can see it into file public
+
+Property __ID__ at the table is the __KEY__ for each render of each course when you have selected the carreer about you want to commet
+
+---
+> Code of note_ModalDiv.tsx -- Function Modal_Body
+```JSX
+    <div className="mb-3">
+        <label className="form-label" htmlFor="optionsCarreer">Materia: </label>
+        <select className="form-select" id="optionsCarreer" name="course" value={form.course} onChange={handlechange} required>
+        <option key="Not Chosen 2" defaultValue=""></option>
+            {optionsCarreer.map((option) => (
+                <option value={option.value} key={option.id}>{option.value}</option>
+            ))}
+        </select>
+    </div>
+```
+---
+
+In case, you are thinking i typed the __IDs__  one by one, not, that is not efficient and its incorrect. 
+
+I decided to use the next algorithm at console UDO's Web Site to get the information quickly
+```js
+    function getName(){
+        let courses = []
+        let count = 0
+
+        const $players = document.getElementsByTagName("th")
+
+        for(let i = 0; i < $players.length; i++){
+            if($players[i].textContent !== "" && $players[i].textContent !== " "){
+                count = count + 1
+                let data = { id: 0, name: "" }
+                data["id"] = count
+                data["name"] = $players[i].textContent.substring(23)
+                courses.push(data)
+            }
+        }
+
+        return courses;
+    }
+```
+---
+
+## Coming to an End
+
+Structure of every Json of file public
+
+```json
+    "id": 118,
+    "name": "EXTRA ACADEMICA CULTURAL",
+    "id_semester": 1
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+id and name explanation *See function getName*, and id_semester i got it using IA(Poe) to put the number of the semester into the form and have a better control into the database.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Explanation of Component/CSS_GRID
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+I am using various times Columns and Rows so instead of being putting every time
 
-## Learn More
+```html
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                Column
+            </div>
+            <div class="col">
+                Column
+            </div>
+            <div class="col">
+                Column
+            </div>
+        </div>
+    </div>
+```
 
-To learn more about Next.js, take a look at the following resources:
+i saw this way better off
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```TSX
+    import { TCSSGRID } from "@/lib/types";
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    export default function Row({children, styles}:TCSSGRID){
+        return(
+            <div className={`${styles}`}>
+                <div className="row">
+                    {children}
+                </div>
+            </div>
+        );
+    };//Components/css_grid/rowDiv.tsx
 
-## Deploy on Vercel
+    export default function Columns({children, styles}:TCSSGRID){
+        return(
+            <div className={`${styles}`}>
+                {children}
+            </div>
+        );
+    };//Components/css_grid/columnsDiv.tsx
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+you only need to pass styles through the component like this
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```JSX
+    <Row styles="container-fluid text-center p-4">
+        <Columns styles="p-2 col-md-3 col-sm-12">
+            <div></div>
+            <div></div>
+            <div></div>
+        </Columns>
+                
+        <Columns styles="p-2 col-md-9 col-sm-12">
+            <div></div>
+            <div></div>
+            <div></div>
+        </Columns>
+    </Row>
+```
+
+# PAGE RELATED TO UDO
+
+> Main: [SICEUDO](http://201.249.180.234/anz/estudiantes/index.php)
+
+> Schedules: [SICEUDO'S SCHEDULES](http://201.249.180.234/anz/estudiantes/progacad/w_index.php?ti=13)

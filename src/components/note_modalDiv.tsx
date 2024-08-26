@@ -14,19 +14,19 @@ import FilterDataContext from "@/useContext/filterDataContext";
 const optionSpeciality:TOptionSpeciality[] = [
     { value:"Administracion", label:"Administracion" },
     { value:"Contaduria_Publica", label:"Contaduria Publica" },
-    { value:"Ingenieria_De_Petroleo", label:"Ingenieria De Petroleo" },
-    { value:"Ingenieria_En_Computacion", label:"Ingenieria En Computacion" },
-    { value:"Ingenieria_Quimica", label:"Ingenieria Quimica" },
     { value:"Medicina", label:"Medicina" },
-    { value:"Tecnologico_En_Fabricacion_Mecanica", label:"Tecnologico En Fabricacion Mecanica" },
     { value:"Arquitectura", label:"Arquitectura" },
-    { value:"Ingenieria_Civil", label:"Ingenieria Civil" },
-    { value:"Ingenieria_De_Sistemas", label:"Ingenieria De Sistemas" },
-    { value:"Ingenieria_Industrial", label:"Ingenieria Industrial" },
-    { value:"Ingenieria_Electrica", label:"Ingenieria Electrica" },
+    { value:"Ingenieria_En_Computacion", label:"Ingenieria En Computacion" },
     { value:"Ingenieria_Mecanica", label:"Ingenieria Mecanica" },
-    { value:"Licenciatura_En_Turismo", label:"Licenciatura En Turismo" },
+    { value:"Ingenieria_Quimica", label:"Ingenieria Quimica" },
+    { value:"Ingenieria_De_Petroleo", label:"Ingenieria De Petroleo" },
+    { value:"Ingenieria_Electrica", label:"Ingenieria Electrica" },
+    { value:"Ingenieria_Industrial", label:"Ingenieria Industrial" },
+    { value:"Ingenieria_De_Sistemas", label:"Ingenieria De Sistemas" },
+    { value:"Ingenieria_Civil", label:"Ingenieria Civil" },
+    { value:"Tecnologico_En_Fabricacion_Mecanica", label:"Tecnologico En Fabricacion Mecanica" },
     { value:"Tecnologico_En_Electronica", label:"Tecnologico En Electronica" },
+    { value:"Licenciatura_En_Turismo", label:"Licenciatura En Turismo" },
 ];
 
 const DATA_FORM:TFORM = {

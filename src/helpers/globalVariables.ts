@@ -27,9 +27,8 @@ const allSemesters:any = {
     "Tecnologico_En_Electronica": semesterTecnologico
 };
 
-const speciality:string[] = ["Administracion", "Contaduria_Publica", "Ingenieria_De_Petroleo", "Ingenieria_En_Computacion", "Ingenieria_Quimica", "Medicina", "Arquitectura",
-    "Ingenieria_Civil", "Ingenieria_De_Sistemas", "Ingenieria_Industrial", "Ingenieria_Electrica", "Ingenieria_Mecanica" ,"Licenciatura_En_Turismo", "Tecnologico_En_Fabricacion_Mecanica", 
-    "Tecnologico_En_Electronica"];
+const speciality:string[] = ["Administracion", "Contaduria_Publica", "Medicina", "Arquitectura", "Ingenieria_En_Computacion", "Ingenieria_Mecanica", "Ingenieria_Quimica", "Ingenieria_De_Petroleo", 
+    "Ingenieria_Electrica", "Ingenieria_Industrial", "Ingenieria_De_Sistemas", "Ingenieria_Civil", "Tecnologico_En_Fabricacion_Mecanica", "Tecnologico_En_Electronica", "Licenciatura_En_Turismo"];
 
 export {
     allSemesters, speciality
