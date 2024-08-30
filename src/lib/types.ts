@@ -14,7 +14,8 @@ export type TFORM = {
     semester: number,
     comment: string,
     date: number,
-    files: string[]
+    files: string[],
+    userComment: string[] 
 };
 
 //MODAL_MODY'S TYPE --- NOTE_MODALDIV.TSX --- COMPONENT \\ 

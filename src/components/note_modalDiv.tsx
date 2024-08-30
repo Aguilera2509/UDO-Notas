@@ -36,7 +36,8 @@ const DATA_FORM:TFORM = {
     semester: 1,
     comment: "",
     date: 0,
-    files: []
+    files: [],
+    userComment: []
 };
 
 export default function NoteToMake(){

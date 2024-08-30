@@ -14,10 +14,19 @@ export function NotDataAlert({ message, sp, sem, course }:{message:string, sp:st
     );
 };
 
-
 //NOTE_MODALDIV.TSX ---- COMPONENTS
 
 export function InvalidData({msg}:{msg:string}){
+    return(
+        <div className="alert alert-danger m-2" role="alert">
+            {msg}
+        </div>
+    );
+};
+
+//NOTES_CARDDIV.TSC ---- COMPONENTS
+
+export function NotComments({msg}:{msg:string}){
     return(
         <div className="alert alert-danger m-2" role="alert">
             {msg}

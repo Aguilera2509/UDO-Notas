@@ -3,8 +3,10 @@ import Columns from "./css_grid/columnsDiv";
 import Row from "./css_grid/rowDiv";
 import { getDownloadURL, ref } from "firebase/storage";
 import { useEffect, useState } from "react";
-import { storageFirebase } from "@/lib/firebase";
+import { dbFirestore, storageFirebase } from "@/lib/firebase";
 import { ShowImages } from "./images_notes_cardDiv";
+import { doc, setDoc } from "firebase/firestore";
+import { NotComments } from "./alertsDiv";
 
 function time(id_date:number):string{
     const postingDate:Date = new Date(id_date);
@@ -21,6 +23,7 @@ function time(id_date:number):string{
 
 export default function CardToShowNotes({ dataToShow }:{ dataToShow:TFORM }){
     const [image, setImage] = useState<string[]>([]);
+    const [comments, setComments] = useState<boolean>(false);
 
     useEffect(() => {
         if(dataToShow.files.length === 0) return;
@@ -77,17 +80,54 @@ export default function CardToShowNotes({ dataToShow }:{ dataToShow:TFORM }){
             </div>
 
             <div className="card-footer text-body-secondary">
-                {/*<Row styles="container-fluid text-center">
-                    <Columns styles="col-md-6 col-sm-12">
-                        <button type="button" className="btn btn-success w-100">Responder</button>
-                    </Columns>
-                    <Columns styles="col-md-6 col-sm-12">
-                        <button type="button" className="btn btn-info w-100"> 0 Like/s</button>
-                    </Columns>
-                </Row>
-                <hr />*/}
                 <p className="text-center">{time(dataToShow["date"])}</p>
+                <button type="button" className="btn btn-link w-100" onClick={(e)=> setComments(!comments)}>Comentarios</button>
             </div>
+
+            {comments &&
+                <>
+                    <User_Comment_Form db={dataToShow} />
+                    <hr />
+                    {dataToShow.userComment.length === 0 ? 
+                        <NotComments msg="No Comentarios se el primero" />
+                        : dataToShow.userComment.map((el, index) => (
+                            <div className="card m-1 text-bg-secondary" key={(Date.now()+index)}>
+                                <div className="card-body">
+                                    {el}
+                                </div>
+                            </div>
+                        ))
+                    }
+                </>
+            }
+
         </div>
+    );
+};
+
+function User_Comment_Form({ db }: { db:TFORM }){
+    const [userComment, setUserComment] = useState<string>("");
+
+    const handleSubmitComment = async (e:any) => {
+        e.preventDefault();
+
+        if(!/^[\w'\-,.][^÷\ˆ]{2,300}$/.test(userComment)) return;
+
+        db.userComment = [...db.userComment, userComment];
+
+        await setDoc(doc(dbFirestore, `semestre ${db.semester}`, `${db.speciality}`, `${db.course}`, `${db.professor} && ${db.date}`), {
+            ...db
+        });
+
+        setUserComment("");
+    };
+    
+    return(
+        <form onSubmit={handleSubmitComment}>
+            <div className="input-group p-2">
+                <input type="text" value={userComment} onChange={(e) => setUserComment(e.target.value)} className="form-control border-primary" placeholder="Deja tu Comentario aqui de 3 a 300 carateres" required />
+                <button className="btn btn-success" type="submit">Enviar</button>
+            </div>
+        </form>
     );
 };
